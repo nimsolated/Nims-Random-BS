@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LapisLazuliNugget"
+      },
+      {
+        "value": "CUSTOM:LapisLazuliNugget"
+      },
+      {
+        "value": "CUSTOM:LapisLazuliNugget"
+      },
+      {
+        "value": "CUSTOM:LapisLazuliNugget"
+      },
+      {
+        "value": "CUSTOM:LapisLazuliNugget"
+      },
+      {
+        "value": "CUSTOM:LapisLazuliNugget"
+      },
+      {
+        "value": "CUSTOM:LapisLazuliNugget"
+      },
+      {
+        "value": "CUSTOM:LapisLazuliNugget"
+      },
+      {
+        "value": "CUSTOM:LapisLazuliNugget"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.DYE#4"
+    },
+    "name": "lapis_lazuli_recipe",
+    "namespace": "mod"
+  }
+}

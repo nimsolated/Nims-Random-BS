@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "particle": "nims_random_bullshit:block/broken_glass",
+    "edge": "nims_random_bullshit:block/broken_glass",
+    "pane": "nims_random_bullshit:block/broken_glass"
+  },
+  "render_type": "translucent"
+}

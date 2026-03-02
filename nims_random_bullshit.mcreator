@@ -1,0 +1,1347 @@
+{
+  "mod_elements": [
+    {
+      "name": "CondensedNetherrack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_netherrack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedNetherrackBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_netherrack.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_netherrack.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "CondensedCondensedNetherrack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_condensed_netherrack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedCondensedNetherrackBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_condensed_netherrack.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/condensed_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_condensed_netherrack.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "CondensedCondensedCondensedNetherrack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_condensed_condensed_netherrack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_condensed_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_condensed_condensed_netherrack.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedCondensedCondensedNetherrackBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/condensed_condensed_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_condensed_condensed_netherrack.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "CondensedNetherrackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_netherrack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/condensed_netherrack_recipe.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "CondensedCondensedNetherrackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_condensed_netherrack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/condensed_condensed_netherrack_recipe.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "CondensedCondensedCondensedNetherrackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_condensed_condensed_netherrack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/condensed_condensed_condensed_netherrack_recipe.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "NetherrackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/netherrack_recipe.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "CondensedNetherrackRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_netherrack_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/condensed_netherrack_recipe_2.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "CondensedCondensedNetherrack2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_condensed_netherrack_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/condensed_condensed_netherrack_2.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "BlockEater",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_eater",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/block_eater.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BlockEaterItem.java"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "BlockEaterRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_eater_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/BlockEaterRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "BlockEaterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_eater_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/block_eater_recipe.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "PassiveIncomeEnchantment",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "passive_income_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/enchantment/PassiveIncomeEnchantmentEnchantment.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "PassiveIncomeProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "passive_income_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/PassiveIncomeProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "BrokenGlass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/blockstates/broken_glass.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_side.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/BrokenGlassBlock.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/broken_glass.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_noside_alt.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/broken_glass.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_noside.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_post.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_side_alt.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "BrokenGlassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/broken_glass_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "QuadraCondensedNetherrack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quadra_condensed_netherrack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/block/quadra_condensed_netherrack.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/QuadraCondensedNetherrackBlock.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/quadra_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/quadra_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/quadra_condensed_netherrack.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "NetherrackitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrackite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/netherrackite_pickaxe.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/NetherrackitePickaxeItem.java"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "Netherrackite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrackite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/netherrackite.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/NetherrackiteItem.java"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "NetherrackiteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrackite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/netherrackite_recipe.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "NetherrackitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrackite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/netherrackite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "QuadraCondensedNetherrackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quadra_condensed_netherrack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/quadra_condensed_netherrack_recipe.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "QuadraCondensedNetherrackRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quadra_condensed_netherrack_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/quadra_condensed_netherrack_recipe_2.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "NetherrackingEnchantment",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherracking_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/enchantment/NetherrackingEnchantmentEnchantment.java"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "NetherrackingLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherracking_logic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/NetherrackingLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "PentaCondensedNetherrack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penta_condensed_netherrack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/penta_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/penta_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/penta_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/penta_condensed_netherrack.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/PentaCondensedNetherrackBlock.java"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "PentaCondensedNetherrackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penta_condensed_netherrack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/penta_condensed_netherrack_recipe.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "PentaCondensedNetherrackRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penta_condensed_netherrack_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/penta_condensed_netherrack_recipe_2.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "HexaCondensedNetherrack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hexa_condensed_netherrack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/hexa_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/hexa_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/hexa_condensed_netherrack.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/HexaCondensedNetherrackBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/hexa_condensed_netherrack.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "HexaCondensedNetherrackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hexa_condensed_netherrack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/hexa_condensed_netherrack_recipe.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "HexaCondensedNetherrackRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hexa_condensed_netherrack_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/hexa_condensed_netherrack_recipe_2.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "NetherrackitePickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrackite_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/NetherrackitePickaxeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "SandDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/sand_dust.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/SandDustItem.java"
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "LapisLazuliNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/LapisLazuliNuggetItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/lapis_lazuli_nugget.json"
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "LapisLazuliNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/lapis_lazuli_nugget_recipe.json"
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "LapisLazuliRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/lapis_lazuli_recipe.json"
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "MagicDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/MagicDustItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/magic_dust.json"
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "MagicDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magic_dust_recipe.json"
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "SandDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/sand_dust_recipe.json"
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "SandRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/sand_recipe.json"
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "MagicFlesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_flesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/MagicFleshItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/magic_flesh.json"
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "MagicFleshOnPlayerStoppedUsing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_flesh_on_player_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MagicFleshOnPlayerStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "MagicFleshRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_flesh_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magic_flesh_recipe.json"
+        ]
+      },
+      "path": "~/Lapis"
+    },
+    {
+      "name": "Shit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/shit.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/ShitItem.java"
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "ShitProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/entity/ShitProjectileEntity.java"
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "StinkyEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stinky_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/potion/StinkyEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "ShitProjectileProjectileHitsPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_projectile_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/ShitProjectileProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "ShitGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/ShitGUIScreen.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/ShitGUIMenu.java"
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "StinkyEffectOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stinky_effect_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/StinkyEffectOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "StinkyEffectEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stinky_effect_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/StinkyEffectEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "ShitSpawnLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_spawn_logic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/ShitSpawnLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "BonemealRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/bonemeal_recipe.json"
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "ShitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/shit_recipe.json"
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "ShitRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/shit_recipe_2.json"
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "GoldenBerries",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_berries",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/golden_berries.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/GoldenBerriesItem.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "GoldenBerriesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_berries_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/golden_berries_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "OreMinerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_miner_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/OreMinerGUIScreen.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/OreMinerGUIMenu.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/network/OreMinerGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "OreMinerGUISlot0ImageDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_miner_gui_slot_0_image_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/OreMinerGUISlot0ImageDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "NetherriteTemplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/netherrite_template_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "OreMiner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_miner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/ore_miner.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/ore_miner.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/entity/OreMinerBlockEntity.java",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/ore_miner.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/OreMinerBlock.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/ore_miner.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "OreMinerMineButtonPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_miner_mine_button_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/OreMinerMineButtonPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "OreMinerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_miner_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/ore_miner_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "NetherriteTemplateRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_template_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/netherrite_template_recipe_2.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "Ghoul",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghoul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/entity/GhoulEntity.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/ghoul_spawn_egg.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/client/renderer/GhoulRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "GhoulThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghoul_this_entity_kills_another_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/GhoulThisEntityKillsAnotherOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "Gravedigger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravedigger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/gravedigger.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/GravediggerItem.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "GravediggerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravedigger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/gravedigger_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "GravediggerRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravedigger_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/GravediggerRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "SummonedEntityEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summoned_entity_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/potion/SummonedEntityEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "SummonedEntityEffectEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summoned_entity_effect_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/SummonedEntityEffectEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "GhoulOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghoul_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/GhoulOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Other"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HexaCondensedNetherrack",
+      "~CUSTOM:PentaCondensedNetherrack",
+      "~CUSTOM:QuadraCondensedNetherrack",
+      "~CUSTOM:CondensedCondensedCondensedNetherrack",
+      "~CUSTOM:CondensedCondensedNetherrack",
+      "~CUSTOM:CondensedNetherrack"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:NetherrackitePickaxe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:Gravedigger"
+    ],
+    "BLOCKS:mod:netherrack": [
+      "Blocks.NETHERRACK",
+      "CUSTOM:CondensedNetherrack",
+      "CUSTOM:CondensedCondensedNetherrack",
+      "CUSTOM:CondensedCondensedCondensedNetherrack",
+      "CUSTOM:QuadraCondensedNetherrack",
+      "CUSTOM:PentaCondensedNetherrack"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
+      "item.nims_random_bullshit.gravedigger": "Gravedigger",
+      "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
+      "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
+      "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
+      "item.nims_random_bullshit.magic_dust": "Magic Dust",
+      "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
+      "item.nims_random_bullshit.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
+      "item.nims_random_bullshit.netherrackite_pickaxe": "Netherrackite Pickaxe",
+      "effect.nims_random_bullshit.stinky_effect": "Stinky",
+      "block.nims_random_bullshit.broken_glass": "Broken Glass",
+      "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
+      "block.nims_random_bullshit.ore_miner": "Ore Miner",
+      "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
+      "item.nims_random_bullshit.sand_dust": "Sand Dust",
+      "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
+      "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
+      "item.nims_random_bullshit.block_eater": "Block Eater",
+      "item.nims_random_bullshit.golden_berries": "Golden Berries",
+      "block.nims_random_bullshit.condensed_condensed_condensed_netherrack": "Condensed Condensed Condensed Netherrack",
+      "entity.nims_random_bullshit.ghoul": "Ghoul",
+      "gui.nims_random_bullshit.shit_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
+      "item.nims_random_bullshit.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
+      "item.nims_random_bullshit.gravedigger.description_1": "We must dig!",
+      "item.nims_random_bullshit.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
+      "item.nims_random_bullshit.shit": "Shit",
+      "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
+      "enchantment.nims_random_bullshit.netherracking_enchantment": "Netherracking",
+      "item.nims_random_bullshit.netherrackite": "Netherrackite"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Netherracks",
+        "children": []
+      },
+      {
+        "name": "Other",
+        "children": []
+      },
+      {
+        "name": "Shit",
+        "children": []
+      },
+      {
+        "name": "Lapis",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "nims_random_bullshit",
+    "modName": "Nim\u0027s Random Bullshit",
+    "version": "1.0.0",
+    "author": "nimsolated, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.nimsrandombullshit"
+  },
+  "mcreatorVersion": 202400452410
+}
