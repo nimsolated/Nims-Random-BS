@@ -949,7 +949,7 @@
           "src/main/java/net/mcreator/nimsrandombullshit/network/OreMinerGUIButtonMessage.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/OreMiner"
     },
     {
       "name": "OreMinerGUISlot0ImageDisplayCondition",
@@ -969,7 +969,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/OreMiner"
     },
     {
       "name": "NetherriteTemplateRecipe",
@@ -1000,7 +1000,7 @@
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/ore_miner.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/OreMiner"
     },
     {
       "name": "OreMinerMineButtonPressed",
@@ -1035,7 +1035,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/OreMiner"
     },
     {
       "name": "OreMinerRecipe",
@@ -1048,7 +1048,7 @@
           "src/main/resources/data/nims_random_bullshit/recipes/ore_miner_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/OreMiner"
     },
     {
       "name": "NetherriteTemplateRecipe2",
@@ -1076,7 +1076,7 @@
           "src/main/java/net/mcreator/nimsrandombullshit/client/renderer/GhoulRenderer.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Gravedigger"
     },
     {
       "name": "GhoulThisEntityKillsAnotherOne",
@@ -1107,7 +1107,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Gravedigger"
     },
     {
       "name": "Gravedigger",
@@ -1121,7 +1121,7 @@
           "src/main/java/net/mcreator/nimsrandombullshit/item/GravediggerItem.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Gravedigger"
     },
     {
       "name": "GravediggerRecipe",
@@ -1134,7 +1134,7 @@
           "src/main/resources/data/nims_random_bullshit/recipes/gravedigger_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Gravedigger"
     },
     {
       "name": "GravediggerRightclickedOnBlock",
@@ -1177,7 +1177,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Gravedigger"
     },
     {
       "name": "SummonedEntityEffect",
@@ -1190,7 +1190,7 @@
           "src/main/java/net/mcreator/nimsrandombullshit/potion/SummonedEntityEffectMobEffect.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Gravedigger"
     },
     {
       "name": "SummonedEntityEffectEffectExpires",
@@ -1225,7 +1225,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Gravedigger"
     },
     {
       "name": "GhoulOnInitialEntitySpawn",
@@ -1244,7 +1244,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Gravedigger"
     },
     {
       "name": "Star",
@@ -1258,7 +1258,7 @@
           "src/main/java/net/mcreator/nimsrandombullshit/item/StarItem.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Star"
     },
     {
       "name": "StarRecipe",
@@ -1271,7 +1271,7 @@
           "src/main/resources/data/nims_random_bullshit/recipes/star_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Star"
     },
     {
       "name": "StarWand",
@@ -1285,7 +1285,7 @@
           "src/main/resources/assets/nims_random_bullshit/models/item/star_wand.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Star"
     },
     {
       "name": "StarWandRightclicked",
@@ -1324,7 +1324,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Star"
     },
     {
       "name": "StarWandRecipe",
@@ -1337,7 +1337,7 @@
           "src/main/resources/data/nims_random_bullshit/recipes/star_wand_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Star"
     },
     {
       "name": "NetherrackJuice",
@@ -1356,7 +1356,7 @@
           "src/main/resources/assets/nims_random_bullshit/models/item/netherrack_juice_bucket.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Netherracks"
     },
     {
       "name": "NetherrackJuiceBucketRecipe",
@@ -1369,7 +1369,7 @@
           "src/main/resources/data/nims_random_bullshit/recipes/netherrack_juice_bucket_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Netherracks"
     },
     {
       "name": "NetherrackJuiceOnTickUpdate",
@@ -1398,6 +1398,19 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "BrokenGlassRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_glass_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/broken_glass_recipe_2.json"
         ]
       },
       "path": "~/Other"
@@ -1489,6 +1502,18 @@
       },
       {
         "name": "Lapis",
+        "children": []
+      },
+      {
+        "name": "Star",
+        "children": []
+      },
+      {
+        "name": "Gravedigger",
+        "children": []
+      },
+      {
+        "name": "OreMiner",
         "children": []
       }
     ]
