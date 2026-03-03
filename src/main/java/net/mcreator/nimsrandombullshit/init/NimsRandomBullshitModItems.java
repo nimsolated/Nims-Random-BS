@@ -13,10 +13,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.nimsrandombullshit.item.StarWandItem;
+import net.mcreator.nimsrandombullshit.item.StarItem;
 import net.mcreator.nimsrandombullshit.item.ShitItem;
 import net.mcreator.nimsrandombullshit.item.SandDustItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackitePickaxeItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackiteItem;
+import net.mcreator.nimsrandombullshit.item.NetherrackJuiceItem;
 import net.mcreator.nimsrandombullshit.item.MagicFleshItem;
 import net.mcreator.nimsrandombullshit.item.MagicDustItem;
 import net.mcreator.nimsrandombullshit.item.LapisLazuliNuggetItem;
@@ -46,6 +49,9 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> ORE_MINER = block(NimsRandomBullshitModBlocks.ORE_MINER);
 	public static final RegistryObject<Item> GHOUL_SPAWN_EGG = REGISTRY.register("ghoul_spawn_egg", () -> new ForgeSpawnEggItem(NimsRandomBullshitModEntities.GHOUL, -16777216, -13421773, new Item.Properties()));
 	public static final RegistryObject<Item> GRAVEDIGGER = REGISTRY.register("gravedigger", () -> new GravediggerItem());
+	public static final RegistryObject<Item> STAR = REGISTRY.register("star", () -> new StarItem());
+	public static final RegistryObject<Item> STAR_WAND = REGISTRY.register("star_wand", () -> new StarWandItem());
+	public static final RegistryObject<Item> NETHERRACK_JUICE_BUCKET = REGISTRY.register("netherrack_juice_bucket", () -> new NetherrackJuiceItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

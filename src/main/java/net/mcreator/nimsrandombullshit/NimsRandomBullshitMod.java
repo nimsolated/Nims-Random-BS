@@ -21,6 +21,8 @@ import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModTabs;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModMobEffects;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModMenus;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModItems;
+import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModFluids;
+import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModFluidTypes;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModEntities;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModEnchantments;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModBlocks;
@@ -56,6 +58,8 @@ public class NimsRandomBullshitMod {
 		NimsRandomBullshitModMobEffects.REGISTRY.register(bus);
 
 		NimsRandomBullshitModMenus.REGISTRY.register(bus);
+		NimsRandomBullshitModFluids.REGISTRY.register(bus);
+		NimsRandomBullshitModFluidTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

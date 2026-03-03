@@ -34,11 +34,14 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACKITE_PICKAXE.get());
 			tabData.accept(NimsRandomBullshitModItems.SHIT.get());
 			tabData.accept(NimsRandomBullshitModItems.GRAVEDIGGER.get());
+			tabData.accept(NimsRandomBullshitModItems.STAR_WAND.get());
+			tabData.accept(NimsRandomBullshitModItems.NETHERRACK_JUICE_BUCKET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACKITE.get());
 			tabData.accept(NimsRandomBullshitModItems.SAND_DUST.get());
 			tabData.accept(NimsRandomBullshitModItems.LAPIS_LAZULI_NUGGET.get());
 			tabData.accept(NimsRandomBullshitModItems.MAGIC_DUST.get());
+			tabData.accept(NimsRandomBullshitModItems.STAR.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(NimsRandomBullshitModItems.MAGIC_FLESH.get());
 			tabData.accept(NimsRandomBullshitModItems.GOLDEN_BERRIES.get());

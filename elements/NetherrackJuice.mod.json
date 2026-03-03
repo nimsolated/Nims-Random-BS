@@ -1,0 +1,62 @@
+{
+  "_fv": 73,
+  "_type": "fluid",
+  "definition": {
+    "name": "Netherrack Juice",
+    "bucketName": "Netherrack Juice Bucket",
+    "textureStill": "netherrack_juice",
+    "textureFlowing": "netherrack_juice_flowing",
+    "textureRenderOverlay": "netherrack_juice_overlay",
+    "hasFog": true,
+    "fogColor": {
+      "value": -13434880,
+      "falpha": 0.0
+    },
+    "fogStartDistance": {
+      "fixedValue": 0.0
+    },
+    "fogEndDistance": {
+      "fixedValue": 6.0
+    },
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 666,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "netherrack_juice_bucket",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 1,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "RED",
+    "onTickUpdate": {
+      "name": "NetherrackJuiceOnTickUpdate"
+    }
+  }
+}

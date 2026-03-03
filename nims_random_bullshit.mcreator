@@ -1245,11 +1245,170 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "Star",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/star.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/StarItem.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "StarRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/star_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "StarWand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/StarWandItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/star_wand.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "StarWandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/StarWandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "StarWandRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_wand_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/star_wand_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "NetherrackJuice",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_juice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/block/NetherrackJuiceBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/netherrack_juice.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/fluid/NetherrackJuiceFluid.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/NetherrackJuiceItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/block/netherrack_juice.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/fluid/types/NetherrackJuiceFluidType.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/netherrack_juice_bucket.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "NetherrackJuiceBucketRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_juice_bucket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/netherrack_juice_bucket_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "NetherrackJuiceOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_juice_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/NetherrackJuiceOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:NetherrackJuice"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:HexaCondensedNetherrack",
       "~CUSTOM:PentaCondensedNetherrack",
@@ -1259,6 +1418,7 @@
       "~CUSTOM:CondensedNetherrack"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:StarWand",
       "~CUSTOM:NetherrackitePickaxe"
     ],
     "ITEMS:minecraft:shovels": [
@@ -1278,8 +1438,10 @@
     "en_us": {
       "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
       "item.nims_random_bullshit.gravedigger": "Gravedigger",
-      "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
+      "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
+      "item.nims_random_bullshit.star_wand": "Star Wand",
       "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
+      "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
       "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
       "item.nims_random_bullshit.magic_dust": "Magic Dust",
       "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
@@ -1289,14 +1451,17 @@
       "block.nims_random_bullshit.broken_glass": "Broken Glass",
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
       "block.nims_random_bullshit.ore_miner": "Ore Miner",
+      "block.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
       "item.nims_random_bullshit.sand_dust": "Sand Dust",
       "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
       "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "item.nims_random_bullshit.block_eater": "Block Eater",
       "item.nims_random_bullshit.golden_berries": "Golden Berries",
+      "item.nims_random_bullshit.netherrack_juice_bucket": "Netherrack Juice Bucket",
       "block.nims_random_bullshit.condensed_condensed_condensed_netherrack": "Condensed Condensed Condensed Netherrack",
       "entity.nims_random_bullshit.ghoul": "Ghoul",
+      "item.nims_random_bullshit.star": "Star",
       "gui.nims_random_bullshit.shit_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
       "item.nims_random_bullshit.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
       "item.nims_random_bullshit.gravedigger.description_1": "We must dig!",

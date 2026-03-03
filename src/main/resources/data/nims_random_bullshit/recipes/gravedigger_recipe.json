@@ -4,17 +4,20 @@
   "pattern": [
     " a ",
     "bcb",
-    "bcb"
+    "dbd"
   ],
   "key": {
     "a": {
       "item": "minecraft:wither_skeleton_skull"
     },
     "b": {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:bone"
     },
     "c": {
-      "item": "minecraft:bone"
+      "item": "minecraft:netherite_shovel"
+    },
+    "d": {
+      "item": "minecraft:ghast_tear"
     }
   },
   "result": {

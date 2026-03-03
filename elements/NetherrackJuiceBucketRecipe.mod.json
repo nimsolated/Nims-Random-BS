@@ -8,41 +8,41 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "EQUIPMENT",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "Items.SKULL#1"
+        "value": "CUSTOM:CondensedCondensedCondensedNetherrack"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.BONE"
+        "value": ""
       },
       {
-        "value": "Items.NETHERITE_SHOVEL"
+        "value": "Items.WATER_BUCKET"
       },
       {
-        "value": "Items.BONE"
+        "value": ""
       },
       {
-        "value": "Items.GHAST_TEAR"
+        "value": ""
       },
       {
-        "value": "Items.BONE"
+        "value": ""
       },
       {
-        "value": "Items.GHAST_TEAR"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Gravedigger"
+      "value": "CUSTOM:NetherrackJuice.bucket"
     },
-    "name": "gravedigger_recipe",
+    "name": "netherrack_juice_bucket_recipe",
     "namespace": "mod"
   }
 }
