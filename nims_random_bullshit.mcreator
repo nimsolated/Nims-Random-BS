@@ -1424,8 +1424,74 @@
             "type": "entity"
           },
           {
-            "name": "guistate",
-            "type": "map"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "MailboxRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailbox_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/mailbox_recipe.json"
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "ShippingLabel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipping_label",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/shipping_label.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/ShippingLabelItem.java"
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "ShippingLabelRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipping_label_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/ShippingLabelRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           },
           {
             "name": "x",
@@ -1442,6 +1508,79 @@
           {
             "name": "world",
             "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "ShippingLabelHasItemGlowingEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipping_label_has_item_glowing_effect",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/ShippingLabelHasItemGlowingEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "ShippingLabelSpecialInformation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipping_label_special_information",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/ShippingLabelSpecialInformationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "ShippingLabelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipping_label_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/shipping_label_recipe.json"
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "MailboxSlot99ShippingLabelInsertionCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailbox_slot_99_shipping_label_insertion_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MailboxSlot99ShippingLabelInsertionConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       },
@@ -1504,6 +1643,7 @@
       "item.nims_random_bullshit.sand_dust": "Sand Dust",
       "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
       "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
+      "item.nims_random_bullshit.shipping_label": "Shipping Label",
       "item.nims_random_bullshit.block_eater": "Block Eater",
       "item.nims_random_bullshit.golden_berries": "Golden Berries",
       "item.nims_random_bullshit.netherrack_juice_bucket": "Netherrack Juice Bucket",

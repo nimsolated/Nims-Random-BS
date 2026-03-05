@@ -3,7 +3,7 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 360,
+    "width": 240,
     "height": 180,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
@@ -331,90 +331,6 @@
         }
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_x",
-          "text": {
-            "fixedValue": "X:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 258,
-          "y": 49,
-          "locked": false
-        }
-      },
-      {
-        "type": "textfield",
-        "data": {
-          "placeholder": "0",
-          "name": "outbox_x_coord",
-          "width": 120,
-          "height": 20,
-          "x": 267,
-          "y": 44,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_y",
-          "text": {
-            "fixedValue": "Y:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 258,
-          "y": 71,
-          "locked": false
-        }
-      },
-      {
-        "type": "textfield",
-        "data": {
-          "placeholder": "0",
-          "name": "outbox_y_coord",
-          "width": 120,
-          "height": 20,
-          "x": 267,
-          "y": 67,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_z",
-          "text": {
-            "fixedValue": "Z:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 258,
-          "y": 94,
-          "locked": false
-        }
-      },
-      {
-        "type": "textfield",
-        "data": {
-          "placeholder": "0",
-          "name": "outbox_z_coord",
-          "width": 120,
-          "height": 20,
-          "x": 267,
-          "y": 89,
-          "locked": false
-        }
-      },
-      {
         "type": "button",
         "data": {
           "name": "button_send",
@@ -425,8 +341,32 @@
           },
           "width": 46,
           "height": 20,
-          "x": 303,
-          "y": 116,
+          "x": 263,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:ShippingLabel"
+          },
+          "disablePlacement": {
+            "fixedValue": false,
+            "name": "MailboxSlot99ShippingLabelInsertionCondition"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "id": 99,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 276,
+          "y": 58,
           "locked": false
         }
       }

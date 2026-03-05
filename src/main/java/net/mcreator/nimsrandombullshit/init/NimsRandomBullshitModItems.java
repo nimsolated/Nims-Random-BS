@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.nimsrandombullshit.item.StarWandItem;
 import net.mcreator.nimsrandombullshit.item.StarItem;
 import net.mcreator.nimsrandombullshit.item.ShitItem;
+import net.mcreator.nimsrandombullshit.item.ShippingLabelItem;
 import net.mcreator.nimsrandombullshit.item.SandDustItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackitePickaxeItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackiteItem;
@@ -53,6 +54,7 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> STAR_WAND = REGISTRY.register("star_wand", () -> new StarWandItem());
 	public static final RegistryObject<Item> NETHERRACK_JUICE_BUCKET = REGISTRY.register("netherrack_juice_bucket", () -> new NetherrackJuiceItem());
 	public static final RegistryObject<Item> MAILBOX = block(NimsRandomBullshitModBlocks.MAILBOX);
+	public static final RegistryObject<Item> SHIPPING_LABEL = REGISTRY.register("shipping_label", () -> new ShippingLabelItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

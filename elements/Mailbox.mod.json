@@ -108,7 +108,7 @@
     "hasInventory": true,
     "guiBoundTo": "MailboxGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 18,
+    "inventorySize": 100,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,

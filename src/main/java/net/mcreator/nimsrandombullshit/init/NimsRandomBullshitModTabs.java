@@ -36,6 +36,7 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModItems.GRAVEDIGGER.get());
 			tabData.accept(NimsRandomBullshitModItems.STAR_WAND.get());
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACK_JUICE_BUCKET.get());
+			tabData.accept(NimsRandomBullshitModItems.SHIPPING_LABEL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACKITE.get());
 			tabData.accept(NimsRandomBullshitModItems.SAND_DUST.get());

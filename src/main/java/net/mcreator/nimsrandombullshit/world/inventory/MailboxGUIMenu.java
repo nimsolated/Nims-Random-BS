@@ -19,6 +19,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.nimsrandombullshit.procedures.MailboxSlot99ShippingLabelInsertionConditionProcedure;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModMenus;
 
 import java.util.function.Supplier;
@@ -42,7 +43,7 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		super(NimsRandomBullshitModMenus.MAILBOX_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(18);
+		this.internal = new ItemStackHandler(100);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -77,7 +78,7 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 99, 29) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 39, 29) {
 			private final int slot = 0;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
@@ -87,7 +88,7 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 117, 29) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 57, 29) {
 			private final int slot = 1;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
@@ -97,7 +98,7 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 135, 29) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 75, 29) {
 			private final int slot = 2;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
@@ -107,7 +108,7 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 99, 47) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 39, 47) {
 			private final int slot = 3;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
@@ -117,7 +118,7 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 117, 47) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 57, 47) {
 			private final int slot = 4;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
@@ -127,7 +128,7 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 135, 47) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 75, 47) {
 			private final int slot = 5;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
@@ -137,7 +138,7 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 99, 65) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 39, 65) {
 			private final int slot = 6;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
@@ -147,7 +148,7 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 117, 65) {
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 57, 65) {
 			private final int slot = 7;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
@@ -157,7 +158,7 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 135, 65) {
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 75, 65) {
 			private final int slot = 8;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
@@ -167,56 +168,66 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 162, 29) {
+		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 102, 29) {
 			private final int slot = 9;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
 		}));
-		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 180, 29) {
+		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 120, 29) {
 			private final int slot = 10;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
 		}));
-		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 198, 29) {
+		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 138, 29) {
 			private final int slot = 11;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
 		}));
-		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 162, 47) {
+		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 102, 47) {
 			private final int slot = 12;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
 		}));
-		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 180, 47) {
+		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 120, 47) {
 			private final int slot = 13;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
 		}));
-		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 198, 47) {
+		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 138, 47) {
 			private final int slot = 14;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
 		}));
-		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 162, 65) {
+		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 102, 65) {
 			private final int slot = 15;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
 		}));
-		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 180, 65) {
+		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 120, 65) {
 			private final int slot = 16;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
 		}));
-		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 198, 65) {
+		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 138, 65) {
 			private final int slot = 17;
 			private int x = MailboxGUIMenu.this.x;
 			private int y = MailboxGUIMenu.this.y;
 		}));
+		this.customSlots.put(99, this.addSlot(new SlotItemHandler(internal, 99, 183, 29) {
+			private final int slot = 99;
+			private int x = MailboxGUIMenu.this.x;
+			private int y = MailboxGUIMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !MailboxSlot99ShippingLabelInsertionConditionProcedure.execute(itemstack);
+			}
+		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 92 + 8 + sj * 18, 7 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 32 + 8 + sj * 18, 7 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 92 + 8 + si * 18, 7 + 142));
+			this.addSlot(new Slot(inv, si, 32 + 8 + si * 18, 7 + 142));
 	}
 
 	@Override
@@ -239,16 +250,16 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 18) {
-				if (!this.moveItemStackTo(itemstack1, 18, this.slots.size(), true))
+			if (index < 19) {
+				if (!this.moveItemStackTo(itemstack1, 19, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 18, false)) {
-				if (index < 18 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 18 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 19, false)) {
+				if (index < 19 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 19 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 18, 18 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 19, 19 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -366,6 +377,8 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 						continue;
 					if (j == 9)
 						continue;
+					if (j == 99)
+						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
@@ -389,6 +402,8 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 					if (i == 8)
 						continue;
 					if (i == 9)
+						continue;
+					if (i == 99)
 						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}

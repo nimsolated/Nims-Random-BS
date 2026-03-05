@@ -64,7 +64,7 @@ public class MailboxGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			MailboxSmartSendLogicProcedure.execute(world, x, y, z, entity, guistate);
+			MailboxSmartSendLogicProcedure.execute(world, x, y, z, entity);
 		}
 	}
 
