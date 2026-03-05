@@ -1585,6 +1585,130 @@
         ]
       },
       "path": "~/Mailbox"
+    },
+    {
+      "name": "MailboxNameEntryGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailbox_name_entry_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/MailboxNameEntryGUIMenu.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/MailboxNameEntryGUIScreen.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/network/MailboxNameEntryGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "MailboxBlockIsPlacedBy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailbox_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MailboxBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "MailboxNameEntryButtonPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailbox_name_entry_button_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MailboxNameEntryButtonPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "MailboxNameEntryGUIThisGUIIsClosed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailbox_name_entry_gui_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MailboxNameEntryGUIThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
     }
   ],
   "variable_elements": [],
@@ -1624,6 +1748,7 @@
       "item.nims_random_bullshit.gravedigger": "Gravedigger",
       "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "item.nims_random_bullshit.star_wand": "Star Wand",
+      "gui.nims_random_bullshit.mailbox_name_entry_gui.button_done": "Done",
       "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
       "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
@@ -1641,6 +1766,7 @@
       "block.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
       "item.nims_random_bullshit.sand_dust": "Sand Dust",
+      "gui.nims_random_bullshit.mailbox_name_entry_gui.mailbox_name_field": "",
       "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
       "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "item.nims_random_bullshit.shipping_label": "Shipping Label",
@@ -1662,6 +1788,7 @@
       "block.nims_random_bullshit.mailbox": "Mailbox",
       "gui.nims_random_bullshit.mailbox_gui.button_send": "Send",
       "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
+      "gui.nims_random_bullshit.mailbox_name_entry_gui.label_mailbox_name": "Mailbox Name:",
       "gui.nims_random_bullshit.mailbox_gui.label_inbox": "Inbox",
       "item.nims_random_bullshit.netherrackite": "Netherrackite Ingot"
     }

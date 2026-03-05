@@ -3,6 +3,7 @@ package net.mcreator.nimsrandombullshit.procedures;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -11,6 +12,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModBlocks;
@@ -25,6 +27,14 @@ public class ShippingLabelRightclickedOnBlockProcedure {
 				itemstack.getOrCreateTag().putDouble("connected_mailbox_y", y);
 				itemstack.getOrCreateTag().putDouble("connected_mailbox_z", z);
 				itemstack.getOrCreateTag().putBoolean("connected", true);
+				itemstack.setHoverName(Component.literal(((new Object() {
+					public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+						BlockEntity blockEntity = world.getBlockEntity(pos);
+						if (blockEntity != null)
+							return blockEntity.getPersistentData().getString(tag);
+						return "";
+					}
+				}.getValue(world, BlockPos.containing(x, y, z), "mailbox_name")) + "'s Mailbox")));
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.player.levelup")), SoundSource.PLAYERS, (float) 0.75,

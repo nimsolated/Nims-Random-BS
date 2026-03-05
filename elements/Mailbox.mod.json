@@ -132,6 +132,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onBlockPlayedBy": {
+      "name": "MailboxBlockIsPlacedBy"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

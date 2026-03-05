@@ -3,6 +3,7 @@
   "item.nims_random_bullshit.gravedigger": "Gravedigger",
   "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
   "item.nims_random_bullshit.star_wand": "Star Wand",
+  "gui.nims_random_bullshit.mailbox_name_entry_gui.button_done": "Done",
   "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
   "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
   "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
@@ -20,6 +21,7 @@
   "block.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
   "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
   "item.nims_random_bullshit.sand_dust": "Sand Dust",
+  "gui.nims_random_bullshit.mailbox_name_entry_gui.mailbox_name_field": "",
   "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
   "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
   "item.nims_random_bullshit.shipping_label": "Shipping Label",
@@ -41,6 +43,7 @@
   "block.nims_random_bullshit.mailbox": "Mailbox",
   "gui.nims_random_bullshit.mailbox_gui.button_send": "Send",
   "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
+  "gui.nims_random_bullshit.mailbox_name_entry_gui.label_mailbox_name": "Mailbox Name:",
   "gui.nims_random_bullshit.mailbox_gui.label_inbox": "Inbox",
   "item.nims_random_bullshit.netherrackite": "Netherrackite Ingot"
 }
