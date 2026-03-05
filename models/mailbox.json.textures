@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mailbox_rod",
+        "1": "mailbox_flag",
+        "2": "mailbox_base"
+      },
+      "name": "default"
+    }
+  }
+}

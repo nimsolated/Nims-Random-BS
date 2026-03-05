@@ -52,6 +52,7 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> STAR = REGISTRY.register("star", () -> new StarItem());
 	public static final RegistryObject<Item> STAR_WAND = REGISTRY.register("star_wand", () -> new StarWandItem());
 	public static final RegistryObject<Item> NETHERRACK_JUICE_BUCKET = REGISTRY.register("netherrack_juice_bucket", () -> new NetherrackJuiceItem());
+	public static final RegistryObject<Item> MAILBOX = block(NimsRandomBullshitModBlocks.MAILBOX);
 
 	// Start of user code block custom items
 	// End of user code block custom items

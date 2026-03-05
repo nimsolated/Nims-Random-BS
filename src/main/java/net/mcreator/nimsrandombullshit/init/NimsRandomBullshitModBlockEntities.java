@@ -12,11 +12,13 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.nimsrandombullshit.block.entity.OreMinerBlockEntity;
+import net.mcreator.nimsrandombullshit.block.entity.MailboxBlockEntity;
 import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
 
 public class NimsRandomBullshitModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, NimsRandomBullshitMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> ORE_MINER = register("ore_miner", NimsRandomBullshitModBlocks.ORE_MINER, OreMinerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MAILBOX = register("mailbox", NimsRandomBullshitModBlocks.MAILBOX, MailboxBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

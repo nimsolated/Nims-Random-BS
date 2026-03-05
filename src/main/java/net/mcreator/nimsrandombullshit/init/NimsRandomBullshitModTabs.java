@@ -47,6 +47,7 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModItems.GOLDEN_BERRIES.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(NimsRandomBullshitModBlocks.ORE_MINER.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.MAILBOX.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(NimsRandomBullshitModItems.GHOUL_SPAWN_EGG.get());
 		}

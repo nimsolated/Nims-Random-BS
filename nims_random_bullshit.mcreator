@@ -1374,6 +1374,78 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "Mailbox",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailbox",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/blockstates/mailbox.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MailboxBlock.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/entity/MailboxBlockEntity.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/mailbox.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/mailbox.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/mailbox.json"
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "MailboxGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailbox_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/MailboxGUIMenu.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/network/MailboxGUIButtonMessage.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/MailboxGUIScreen.java"
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "MailboxSmartSendLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailbox_smart_send_logic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MailboxSmartSendLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
     }
   ],
   "variable_elements": [],
@@ -1415,15 +1487,18 @@
       "item.nims_random_bullshit.star_wand": "Star Wand",
       "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
+      "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
       "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
       "item.nims_random_bullshit.magic_dust": "Magic Dust",
       "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
       "item.nims_random_bullshit.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
       "item.nims_random_bullshit.netherrackite_pickaxe": "Netherrackite Pickaxe",
       "effect.nims_random_bullshit.stinky_effect": "Stinky",
+      "gui.nims_random_bullshit.mailbox_gui.outbox_x_coord": "0",
       "block.nims_random_bullshit.broken_glass": "Broken Glass",
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
       "block.nims_random_bullshit.ore_miner": "Ore Miner",
+      "gui.nims_random_bullshit.mailbox_gui.label_outbox": "Outbox",
       "block.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
       "item.nims_random_bullshit.sand_dust": "Sand Dust",
@@ -1432,7 +1507,10 @@
       "item.nims_random_bullshit.block_eater": "Block Eater",
       "item.nims_random_bullshit.golden_berries": "Golden Berries",
       "item.nims_random_bullshit.netherrack_juice_bucket": "Netherrack Juice Bucket",
+      "gui.nims_random_bullshit.mailbox_gui.label_y": "Y:",
+      "gui.nims_random_bullshit.mailbox_gui.label_z": "Z:",
       "block.nims_random_bullshit.condensed_condensed_condensed_netherrack": "Condensed Condensed Condensed Netherrack",
+      "gui.nims_random_bullshit.mailbox_gui.label_x": "X:",
       "entity.nims_random_bullshit.ghoul": "Ghoul",
       "item.nims_random_bullshit.star": "Star",
       "gui.nims_random_bullshit.shit_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
@@ -1441,6 +1519,10 @@
       "item.nims_random_bullshit.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
       "item.nims_random_bullshit.shit": "Shit",
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
+      "block.nims_random_bullshit.mailbox": "Mailbox",
+      "gui.nims_random_bullshit.mailbox_gui.button_send": "Send",
+      "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
+      "gui.nims_random_bullshit.mailbox_gui.label_inbox": "Inbox",
       "item.nims_random_bullshit.netherrackite": "Netherrackite Ingot"
     }
   },
@@ -1473,6 +1555,10 @@
       },
       {
         "name": "OreMiner",
+        "children": []
+      },
+      {
+        "name": "Mailbox",
         "children": []
       }
     ]
