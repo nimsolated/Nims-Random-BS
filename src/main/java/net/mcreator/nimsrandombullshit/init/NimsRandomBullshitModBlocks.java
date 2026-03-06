@@ -15,6 +15,7 @@ import net.mcreator.nimsrandombullshit.block.PentaCondensedNetherrackBlock;
 import net.mcreator.nimsrandombullshit.block.OreMinerBlock;
 import net.mcreator.nimsrandombullshit.block.NetherrackJuiceBlock;
 import net.mcreator.nimsrandombullshit.block.MailboxBlock;
+import net.mcreator.nimsrandombullshit.block.LabelCopyMachineBlock;
 import net.mcreator.nimsrandombullshit.block.HexaCondensedNetherrackBlock;
 import net.mcreator.nimsrandombullshit.block.CondensedNetherrackBlock;
 import net.mcreator.nimsrandombullshit.block.CondensedCondensedNetherrackBlock;
@@ -34,6 +35,7 @@ public class NimsRandomBullshitModBlocks {
 	public static final RegistryObject<Block> ORE_MINER = REGISTRY.register("ore_miner", () -> new OreMinerBlock());
 	public static final RegistryObject<Block> NETHERRACK_JUICE = REGISTRY.register("netherrack_juice", () -> new NetherrackJuiceBlock());
 	public static final RegistryObject<Block> MAILBOX = REGISTRY.register("mailbox", () -> new MailboxBlock());
+	public static final RegistryObject<Block> LABEL_COPY_MACHINE = REGISTRY.register("label_copy_machine", () -> new LabelCopyMachineBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

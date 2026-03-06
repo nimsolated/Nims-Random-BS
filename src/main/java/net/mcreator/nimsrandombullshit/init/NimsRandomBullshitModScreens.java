@@ -15,6 +15,7 @@ import net.mcreator.nimsrandombullshit.client.gui.ShitGUIScreen;
 import net.mcreator.nimsrandombullshit.client.gui.OreMinerGUIScreen;
 import net.mcreator.nimsrandombullshit.client.gui.MailboxNameEntryGUIScreen;
 import net.mcreator.nimsrandombullshit.client.gui.MailboxGUIScreen;
+import net.mcreator.nimsrandombullshit.client.gui.LabelCopyMachineGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class NimsRandomBullshitModScreens {
@@ -25,6 +26,7 @@ public class NimsRandomBullshitModScreens {
 			MenuScreens.register(NimsRandomBullshitModMenus.ORE_MINER_GUI.get(), OreMinerGUIScreen::new);
 			MenuScreens.register(NimsRandomBullshitModMenus.MAILBOX_GUI.get(), MailboxGUIScreen::new);
 			MenuScreens.register(NimsRandomBullshitModMenus.MAILBOX_NAME_ENTRY_GUI.get(), MailboxNameEntryGUIScreen::new);
+			MenuScreens.register(NimsRandomBullshitModMenus.LABEL_COPY_MACHINE_GUI.get(), LabelCopyMachineGUIScreen::new);
 		});
 	}
 }

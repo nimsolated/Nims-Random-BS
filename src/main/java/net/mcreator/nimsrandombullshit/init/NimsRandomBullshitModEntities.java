@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.nimsrandombullshit.entity.TuxEntity;
 import net.mcreator.nimsrandombullshit.entity.ShitProjectileEntity;
 import net.mcreator.nimsrandombullshit.entity.GhoulEntity;
 import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
@@ -27,6 +28,10 @@ public class NimsRandomBullshitModEntities {
 			EntityType.Builder.<ShitProjectileEntity>of(ShitProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(ShitProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<GhoulEntity>> GHOUL = register("ghoul",
 			EntityType.Builder.<GhoulEntity>of(GhoulEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GhoulEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<TuxEntity>> TUX = register("tux",
+			EntityType.Builder.<TuxEntity>of(TuxEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TuxEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -38,11 +43,13 @@ public class NimsRandomBullshitModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			GhoulEntity.init();
+			TuxEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(GHOUL.get(), GhoulEntity.createAttributes().build());
+		event.put(TUX.get(), TuxEntity.createAttributes().build());
 	}
 }

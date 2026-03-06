@@ -55,6 +55,8 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> NETHERRACK_JUICE_BUCKET = REGISTRY.register("netherrack_juice_bucket", () -> new NetherrackJuiceItem());
 	public static final RegistryObject<Item> MAILBOX = block(NimsRandomBullshitModBlocks.MAILBOX);
 	public static final RegistryObject<Item> SHIPPING_LABEL = REGISTRY.register("shipping_label", () -> new ShippingLabelItem());
+	public static final RegistryObject<Item> TUX_SPAWN_EGG = REGISTRY.register("tux_spawn_egg", () -> new ForgeSpawnEggItem(NimsRandomBullshitModEntities.TUX, -16777216, -1, new Item.Properties()));
+	public static final RegistryObject<Item> LABEL_COPY_MACHINE = block(NimsRandomBullshitModBlocks.LABEL_COPY_MACHINE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

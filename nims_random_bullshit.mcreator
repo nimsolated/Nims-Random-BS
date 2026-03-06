@@ -239,15 +239,15 @@
       "registry_name": "broken_glass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/blockstates/broken_glass.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_side.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_noside.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_noside_alt.json",
           "src/main/java/net/mcreator/nimsrandombullshit/block/BrokenGlassBlock.java",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/broken_glass.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_noside_alt.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/broken_glass.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_noside.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/broken_glass.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_side_alt.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_post.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_side_alt.json"
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_side.json"
         ]
       },
       "path": "~/Other"
@@ -491,8 +491,8 @@
       "registry_name": "sand_dust",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/sand_dust.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/SandDustItem.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/SandDustItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/sand_dust.json"
         ]
       },
       "path": "~/Lapis"
@@ -656,8 +656,8 @@
       "registry_name": "shit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/shit.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/ShitItem.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/ShitItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/shit.json"
         ]
       },
       "path": "~/Shit"
@@ -735,8 +735,8 @@
       "registry_name": "shit_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/ShitGUIScreen.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/ShitGUIMenu.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/ShitGUIMenu.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/ShitGUIScreen.java"
         ]
       },
       "path": "~/Shit"
@@ -952,12 +952,12 @@
       "registry_name": "ore_miner",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/ore_miner.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/ore_miner.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/entity/OreMinerBlockEntity.java",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/ore_miner.json",
           "src/main/java/net/mcreator/nimsrandombullshit/block/OreMinerBlock.java",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/ore_miner.json"
+          "src/main/java/net/mcreator/nimsrandombullshit/block/entity/OreMinerBlockEntity.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/ore_miner.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/ore_miner.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/ore_miner.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/ore_miner.json"
         ]
       },
       "path": "~/OreMiner"
@@ -1031,9 +1031,9 @@
       "registry_name": "ghoul",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/entity/GhoulEntity.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/client/renderer/GhoulRenderer.java",
           "src/main/resources/assets/nims_random_bullshit/models/item/ghoul_spawn_egg.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/client/renderer/GhoulRenderer.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/entity/GhoulEntity.java"
         ]
       },
       "path": "~/Gravedigger"
@@ -1709,6 +1709,166 @@
         ]
       },
       "path": "~/Mailbox"
+    },
+    {
+      "name": "Tux",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tux",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/entity/TuxEntity.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/tux_spawn_egg.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/client/renderer/TuxRenderer.java"
+        ]
+      },
+      "path": "~/Tux"
+    },
+    {
+      "name": "LabelCopyMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "label_copy_machine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/block/label_copy_machine.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/label_copy_machine.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/label_copy_machine.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/LabelCopyMachineBlock.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/entity/LabelCopyMachineBlockEntity.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/label_copy_machine.json"
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "LabelCopyMachineRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "label_copy_machine_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/label_copy_machine_recipe.json"
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "LabelCopyMachineGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "label_copy_machine_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/LabelCopyMachineGUIMenu.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/LabelCopyMachineGUIScreen.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/network/LabelCopyMachineGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "LabelCopyMachineCopyButtonPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "label_copy_machine_copy_button_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/LabelCopyMachineCopyButtonPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "LabelCopyMachineGUISlot0TooltipCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "label_copy_machine_gui_slot_0_tooltip_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/LabelCopyMachineGUISlot0TooltipConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "LabelCopyMachineGUISlot1TooltipCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "label_copy_machine_gui_slot_1_tooltip_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/LabelCopyMachineGUISlot1TooltipConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "LabelCopyMachineGUISlot2TooltipCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "label_copy_machine_gui_slot_2_tooltip_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/LabelCopyMachineGUISlot2TooltipConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "LabelCopyMachineGUISlot3TooltipCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "label_copy_machine_gui_slot_3_tooltip_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/LabelCopyMachineGUISlot3TooltipConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
     }
   ],
   "variable_elements": [],
@@ -1744,53 +1904,62 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
-      "item.nims_random_bullshit.gravedigger": "Gravedigger",
-      "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
-      "item.nims_random_bullshit.star_wand": "Star Wand",
       "gui.nims_random_bullshit.mailbox_name_entry_gui.button_done": "Done",
-      "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
+      "item.nims_random_bullshit.star_wand": "Star Wand",
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
-      "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
       "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
       "item.nims_random_bullshit.magic_dust": "Magic Dust",
       "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
+      "gui.nims_random_bullshit.label_copy_machine_gui.button_copy": "Copy",
+      "gui.nims_random_bullshit.mailbox_gui.outbox_x_coord": "0",
+      "block.nims_random_bullshit.broken_glass": "Broken Glass",
+      "block.nims_random_bullshit.label_copy_machine": "Label Copy Machine",
+      "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
+      "gui.nims_random_bullshit.mailbox_name_entry_gui.mailbox_name_field": "",
+      "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
+      "item.nims_random_bullshit.shipping_label": "Shipping Label",
+      "gui.nims_random_bullshit.mailbox_gui.label_y": "Y:",
+      "gui.nims_random_bullshit.mailbox_gui.label_z": "Z:",
+      "item.nims_random_bullshit.tux_spawn_egg": "Tux Spawn Egg",
+      "gui.nims_random_bullshit.mailbox_gui.label_x": "X:",
+      "gui.nims_random_bullshit.label_copy_machine_gui.label_label_copy_machine": "Label Copy Machine",
+      "item.nims_random_bullshit.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
+      "item.nims_random_bullshit.gravedigger.description_1": "We must dig!",
+      "item.nims_random_bullshit.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
+      "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_ink_sac_slot": "Ink Sac Slot",
+      "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_paper_slot": "Paper Slot",
+      "block.nims_random_bullshit.mailbox": "Mailbox",
+      "gui.nims_random_bullshit.mailbox_gui.button_send": "Send",
+      "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
+      "gui.nims_random_bullshit.mailbox_gui.label_inbox": "Inbox",
+      "item.nims_random_bullshit.netherrackite": "Netherrackite Ingot",
+      "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
+      "item.nims_random_bullshit.gravedigger": "Gravedigger",
+      "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
+      "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
+      "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
+      "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_output_copy_of_shipping_label": "Output (copy of shipping label)",
       "item.nims_random_bullshit.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
       "item.nims_random_bullshit.netherrackite_pickaxe": "Netherrackite Pickaxe",
       "effect.nims_random_bullshit.stinky_effect": "Stinky",
-      "gui.nims_random_bullshit.mailbox_gui.outbox_x_coord": "0",
-      "block.nims_random_bullshit.broken_glass": "Broken Glass",
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
       "block.nims_random_bullshit.ore_miner": "Ore Miner",
       "gui.nims_random_bullshit.mailbox_gui.label_outbox": "Outbox",
       "block.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
-      "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
       "item.nims_random_bullshit.sand_dust": "Sand Dust",
-      "gui.nims_random_bullshit.mailbox_name_entry_gui.mailbox_name_field": "",
+      "entity.nims_random_bullshit.tux": "Tux",
       "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
-      "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
-      "item.nims_random_bullshit.shipping_label": "Shipping Label",
       "item.nims_random_bullshit.block_eater": "Block Eater",
       "item.nims_random_bullshit.golden_berries": "Golden Berries",
       "item.nims_random_bullshit.netherrack_juice_bucket": "Netherrack Juice Bucket",
-      "gui.nims_random_bullshit.mailbox_gui.label_y": "Y:",
-      "gui.nims_random_bullshit.mailbox_gui.label_z": "Z:",
       "block.nims_random_bullshit.condensed_condensed_condensed_netherrack": "Condensed Condensed Condensed Netherrack",
-      "gui.nims_random_bullshit.mailbox_gui.label_x": "X:",
       "entity.nims_random_bullshit.ghoul": "Ghoul",
       "item.nims_random_bullshit.star": "Star",
       "gui.nims_random_bullshit.shit_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
-      "item.nims_random_bullshit.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
-      "item.nims_random_bullshit.gravedigger.description_1": "We must dig!",
-      "item.nims_random_bullshit.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
       "item.nims_random_bullshit.shit": "Shit",
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
-      "block.nims_random_bullshit.mailbox": "Mailbox",
-      "gui.nims_random_bullshit.mailbox_gui.button_send": "Send",
-      "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
-      "gui.nims_random_bullshit.mailbox_name_entry_gui.label_mailbox_name": "Mailbox Name:",
-      "gui.nims_random_bullshit.mailbox_gui.label_inbox": "Inbox",
-      "item.nims_random_bullshit.netherrackite": "Netherrackite Ingot"
+      "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_shipping_label_slot": "Shipping Label Slot",
+      "gui.nims_random_bullshit.mailbox_name_entry_gui.label_mailbox_name": "Mailbox Name:"
     }
   },
   "foldersRoot": {
@@ -1826,6 +1995,10 @@
       },
       {
         "name": "Mailbox",
+        "children": []
+      },
+      {
+        "name": "Tux",
         "children": []
       }
     ]
