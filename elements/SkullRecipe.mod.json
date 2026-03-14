@@ -8,41 +8,41 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BrokenGlass"
+        "value": "Items.BONE"
       },
       {
-        "value": ""
+        "value": "Items.BONE"
       },
       {
-        "value": ""
+        "value": "Items.BONE"
       },
       {
-        "value": ""
+        "value": "Items.BONE"
       },
       {
-        "value": ""
+        "value": "Items.IRON_HELMET"
       },
       {
-        "value": ""
+        "value": "Items.BONE"
       },
       {
-        "value": ""
+        "value": "Items.BONE"
       },
       {
-        "value": ""
+        "value": "Items.BONE"
       },
       {
-        "value": ""
+        "value": "Items.BONE"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Shit"
+      "value": "Blocks.SKULL#0"
     },
-    "name": "shit_recipe_2",
+    "name": "skull_recipe",
     "namespace": "mod"
   }
 }
