@@ -41,12 +41,19 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModItems.STAR_WAND.get());
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACK_JUICE_BUCKET.get());
 			tabData.accept(NimsRandomBullshitModItems.SHIPPING_LABEL.get());
+			tabData.accept(NimsRandomBullshitModItems.BEDROCK_PICKAXE.get());
+			tabData.accept(NimsRandomBullshitModItems.BEDROCK_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACKITE.get());
 			tabData.accept(NimsRandomBullshitModItems.SAND_DUST.get());
 			tabData.accept(NimsRandomBullshitModItems.LAPIS_LAZULI_NUGGET.get());
 			tabData.accept(NimsRandomBullshitModItems.MAGIC_DUST.get());
 			tabData.accept(NimsRandomBullshitModItems.STAR.get());
+			tabData.accept(NimsRandomBullshitModItems.BEDROCK_UPGRADE_TEMPLATE.get());
+			tabData.accept(NimsRandomBullshitModItems.MAGIC_EGG.get());
+			tabData.accept(NimsRandomBullshitModItems.WITHER_QUESTION_MARK.get());
+			tabData.accept(NimsRandomBullshitModItems.IRON_GOLEM_QUESTION_MARK.get());
+			tabData.accept(NimsRandomBullshitModItems.SNOW_GOLEM_QUESTION_MARK.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(NimsRandomBullshitModItems.MAGIC_FLESH.get());
 			tabData.accept(NimsRandomBullshitModItems.GOLDEN_BERRIES.get());
@@ -56,6 +63,7 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModBlocks.ORE_MINER.get().asItem());
 			tabData.accept(NimsRandomBullshitModBlocks.MAILBOX.get().asItem());
 			tabData.accept(NimsRandomBullshitModBlocks.LABEL_COPY_MACHINE.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.BEDROCKIFIER.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(NimsRandomBullshitModItems.GHOUL_SPAWN_EGG.get());
 			tabData.accept(NimsRandomBullshitModItems.TUX_SPAWN_EGG.get());

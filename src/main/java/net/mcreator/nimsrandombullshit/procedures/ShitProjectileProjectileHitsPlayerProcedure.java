@@ -28,7 +28,7 @@ public class ShitProjectileProjectileHitsPlayerProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(NimsRandomBullshitModMobEffects.STINKY_EFFECT.get(), 60, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(NimsRandomBullshitModMobEffects.STINKY_EFFECT.get(), 20, 1, false, false));
 		}
 	}
 }

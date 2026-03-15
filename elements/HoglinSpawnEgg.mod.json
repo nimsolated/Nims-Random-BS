@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CondensedNetherrack"
+      },
+      {
+        "value": "CUSTOM:CondensedCondensedNetherrack"
+      },
+      {
+        "value": "CUSTOM:CondensedNetherrack"
+      },
+      {
+        "value": "CUSTOM:CondensedCondensedNetherrack"
+      },
+      {
+        "value": "Items.SPAWN_EGG#90"
+      },
+      {
+        "value": "CUSTOM:CondensedCondensedNetherrack"
+      },
+      {
+        "value": "CUSTOM:CondensedNetherrack"
+      },
+      {
+        "value": "CUSTOM:CondensedCondensedNetherrack"
+      },
+      {
+        "value": "CUSTOM:CondensedNetherrack"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.HOGLIN_SPAWN_EGG"
+    },
+    "name": "hoglin_spawn_egg",
+    "namespace": "mod"
+  }
+}

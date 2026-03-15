@@ -32,27 +32,29 @@ public class PassiveIncomeProcedureProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		entity.getPersistentData().putDouble("PassiveIncomeCounter", (entity.getPersistentData().getDouble("PassiveIncomeCounter") + 1));
-		if (entity.getPersistentData().getDouble("PassiveIncomeCounter") % 3340 == 0) {
-			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()) > 0) {
-				if (entity instanceof Player _player)
-					_player.giveExperiencePoints(
-							(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()));
-			}
-			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()) > 0) {
-				if (entity instanceof Player _player)
-					_player.giveExperiencePoints(
-							(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()));
-			}
-			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()) > 0) {
-				if (entity instanceof Player _player)
-					_player.giveExperiencePoints(
-							(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()));
-			}
-			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()) > 0) {
-				if (entity instanceof Player _player)
-					_player.giveExperiencePoints(
-							(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()));
+		if (!world.isClientSide()) {
+			entity.getPersistentData().putDouble("PassiveIncomeCounter", (entity.getPersistentData().getDouble("PassiveIncomeCounter") + 1));
+			if (entity.getPersistentData().getDouble("PassiveIncomeCounter") % 1340 == 0) {
+				if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()) > 0) {
+					if (entity instanceof Player _player)
+						_player.giveExperiencePoints(
+								(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()));
+				}
+				if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()) > 0) {
+					if (entity instanceof Player _player)
+						_player.giveExperiencePoints(
+								(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()));
+				}
+				if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()) > 0) {
+					if (entity instanceof Player _player)
+						_player.giveExperiencePoints(
+								(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()));
+				}
+				if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()) > 0) {
+					if (entity instanceof Player _player)
+						_player.giveExperiencePoints(
+								(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()));
+				}
 			}
 		}
 	}

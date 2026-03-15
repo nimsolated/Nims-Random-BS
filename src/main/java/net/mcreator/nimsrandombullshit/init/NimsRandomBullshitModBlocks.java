@@ -31,6 +31,7 @@ import net.mcreator.nimsrandombullshit.block.CondensedNetherrackBlock;
 import net.mcreator.nimsrandombullshit.block.CondensedCondensedNetherrackBlock;
 import net.mcreator.nimsrandombullshit.block.CondensedCondensedCondensedNetherrackBlock;
 import net.mcreator.nimsrandombullshit.block.BrokenGlassBlock;
+import net.mcreator.nimsrandombullshit.block.BedrockifierBlock;
 import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
 
 public class NimsRandomBullshitModBlocks {
@@ -56,6 +57,7 @@ public class NimsRandomBullshitModBlocks {
 	public static final RegistryObject<Block> MAGMA_BRICK_WALLS = REGISTRY.register("magma_brick_walls", () -> new MagmaBrickWallsBlock());
 	public static final RegistryObject<Block> MAGMA_BRICK_PRESSURE_PLATE = REGISTRY.register("magma_brick_pressure_plate", () -> new MagmaBrickPressurePlateBlock());
 	public static final RegistryObject<Block> MAGMA_BRICK_BUTTON = REGISTRY.register("magma_brick_button", () -> new MagmaBrickButtonBlock());
+	public static final RegistryObject<Block> BEDROCKIFIER = REGISTRY.register("bedrockifier", () -> new BedrockifierBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

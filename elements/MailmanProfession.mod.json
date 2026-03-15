@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Mailman Profession",
+    "pointOfInterest": {
+      "value": "CUSTOM:Mailbox"
+    },
+    "actionSound": {
+      "value": "item.book.page_turn"
+    },
+    "hat": "None",
+    "professionTextureFile": "mailman.png",
+    "zombifiedProfessionTextureFile": "mailman.png"
+  }
+}

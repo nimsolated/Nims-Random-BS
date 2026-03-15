@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "CUSTOM:MagicEgg"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Blocks.HAY_BLOCK"
+      },
+      {
+        "value": "Blocks.HAY_BLOCK"
+      },
+      {
+        "value": "Blocks.HAY_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.LLAMA_SPAWN_EGG"
+    },
+    "name": "llama_spawn_egg",
+    "namespace": "mod"
+  }
+}

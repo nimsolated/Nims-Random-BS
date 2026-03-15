@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:deepslate"
+    },
+    "b": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "c": {
+      "item": "minecraft:squid_spawn_egg"
+    },
+    "d": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:glow_squid_spawn_egg",
+    "count": 1
+  }
+}

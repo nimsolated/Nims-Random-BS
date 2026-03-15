@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:vine"
+    },
+    "b": {
+      "item": "minecraft:jungle_sapling"
+    },
+    "c": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "d": {
+      "tag": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:ocelot_spawn_egg",
+    "count": 1
+  }
+}

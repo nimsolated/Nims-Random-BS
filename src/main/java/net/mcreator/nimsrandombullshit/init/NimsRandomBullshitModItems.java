@@ -13,8 +13,10 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.nimsrandombullshit.item.WitherQuestionMarkItem;
 import net.mcreator.nimsrandombullshit.item.StarWandItem;
 import net.mcreator.nimsrandombullshit.item.StarItem;
+import net.mcreator.nimsrandombullshit.item.SnowGolemQuestionMarkItem;
 import net.mcreator.nimsrandombullshit.item.ShitItem;
 import net.mcreator.nimsrandombullshit.item.ShippingLabelItem;
 import net.mcreator.nimsrandombullshit.item.SandDustItem;
@@ -22,12 +24,17 @@ import net.mcreator.nimsrandombullshit.item.NetherrackitePickaxeItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackiteItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackJuiceItem;
 import net.mcreator.nimsrandombullshit.item.MagicFleshItem;
+import net.mcreator.nimsrandombullshit.item.MagicEggItem;
 import net.mcreator.nimsrandombullshit.item.MagicDustItem;
 import net.mcreator.nimsrandombullshit.item.LapisLazuliNuggetItem;
+import net.mcreator.nimsrandombullshit.item.IronGolemQuestionMarkItem;
 import net.mcreator.nimsrandombullshit.item.GravediggerItem;
 import net.mcreator.nimsrandombullshit.item.GoldenBerriesItem;
 import net.mcreator.nimsrandombullshit.item.CheeseItem;
 import net.mcreator.nimsrandombullshit.item.BlockEaterItem;
+import net.mcreator.nimsrandombullshit.item.BedrockUpgradeTemplateItem;
+import net.mcreator.nimsrandombullshit.item.BedrockSwordItem;
+import net.mcreator.nimsrandombullshit.item.BedrockPickaxeItem;
 import net.mcreator.nimsrandombullshit.item.BeanItem;
 import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
 
@@ -71,6 +78,14 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> MAGMA_BRICK_BUTTON = block(NimsRandomBullshitModBlocks.MAGMA_BRICK_BUTTON);
 	public static final RegistryObject<Item> BEAN = REGISTRY.register("bean", () -> new BeanItem());
 	public static final RegistryObject<Item> CHEESE = REGISTRY.register("cheese", () -> new CheeseItem());
+	public static final RegistryObject<Item> BEDROCK_PICKAXE = REGISTRY.register("bedrock_pickaxe", () -> new BedrockPickaxeItem());
+	public static final RegistryObject<Item> BEDROCK_UPGRADE_TEMPLATE = REGISTRY.register("bedrock_upgrade_template", () -> new BedrockUpgradeTemplateItem());
+	public static final RegistryObject<Item> BEDROCKIFIER = block(NimsRandomBullshitModBlocks.BEDROCKIFIER);
+	public static final RegistryObject<Item> MAGIC_EGG = REGISTRY.register("magic_egg", () -> new MagicEggItem());
+	public static final RegistryObject<Item> WITHER_QUESTION_MARK = REGISTRY.register("wither_question_mark", () -> new WitherQuestionMarkItem());
+	public static final RegistryObject<Item> IRON_GOLEM_QUESTION_MARK = REGISTRY.register("iron_golem_question_mark", () -> new IronGolemQuestionMarkItem());
+	public static final RegistryObject<Item> SNOW_GOLEM_QUESTION_MARK = REGISTRY.register("snow_golem_question_mark", () -> new SnowGolemQuestionMarkItem());
+	public static final RegistryObject<Item> BEDROCK_SWORD = REGISTRY.register("bedrock_sword", () -> new BedrockSwordItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

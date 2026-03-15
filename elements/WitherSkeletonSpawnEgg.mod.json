@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.COAL#0"
+      },
+      {
+        "value": "Blocks.SKULL#1"
+      },
+      {
+        "value": "Items.COAL#0"
+      },
+      {
+        "value": "Items.COAL#0"
+      },
+      {
+        "value": "Items.SPAWN_EGG#51"
+      },
+      {
+        "value": "Items.STONE_SWORD"
+      },
+      {
+        "value": "CUSTOM:CondensedCondensedCondensedNetherrack"
+      },
+      {
+        "value": "CUSTOM:CondensedCondensedCondensedNetherrack"
+      },
+      {
+        "value": "CUSTOM:CondensedCondensedCondensedNetherrack"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.WITHER_SKELETON_SPAWN_EGG"
+    },
+    "name": "wither_skeleton_spawn_egg",
+    "namespace": "mod"
+  }
+}

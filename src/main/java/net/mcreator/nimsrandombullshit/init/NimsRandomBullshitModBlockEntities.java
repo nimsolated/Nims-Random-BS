@@ -14,6 +14,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.nimsrandombullshit.block.entity.OreMinerBlockEntity;
 import net.mcreator.nimsrandombullshit.block.entity.MailboxBlockEntity;
 import net.mcreator.nimsrandombullshit.block.entity.LabelCopyMachineBlockEntity;
+import net.mcreator.nimsrandombullshit.block.entity.BedrockifierBlockEntity;
 import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
 
 public class NimsRandomBullshitModBlockEntities {
@@ -21,6 +22,7 @@ public class NimsRandomBullshitModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> ORE_MINER = register("ore_miner", NimsRandomBullshitModBlocks.ORE_MINER, OreMinerBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MAILBOX = register("mailbox", NimsRandomBullshitModBlocks.MAILBOX, MailboxBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LABEL_COPY_MACHINE = register("label_copy_machine", NimsRandomBullshitModBlocks.LABEL_COPY_MACHINE, LabelCopyMachineBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> BEDROCKIFIER = register("bedrockifier", NimsRandomBullshitModBlocks.BEDROCKIFIER, BedrockifierBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

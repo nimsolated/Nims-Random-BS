@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.PRISMARINE_SHARD"
+      },
+      {
+        "value": "Blocks.SPONGE#1"
+      },
+      {
+        "value": "Items.PRISMARINE_SHARD"
+      },
+      {
+        "value": "Blocks.SPONGE#1"
+      },
+      {
+        "value": "Items.SPAWN_EGG#68"
+      },
+      {
+        "value": "Blocks.SPONGE#1"
+      },
+      {
+        "value": "Items.PRISMARINE_SHARD"
+      },
+      {
+        "value": "Items.TROPICAL_FISH_BUCKET"
+      },
+      {
+        "value": "Items.PRISMARINE_SHARD"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.ELDER_GUARDIAN_SPAWN_EGG"
+    },
+    "name": "elder_guardian_spawn_egg",
+    "namespace": "mod"
+  }
+}

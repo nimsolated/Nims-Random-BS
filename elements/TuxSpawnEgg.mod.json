@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BrokenGlass"
+      },
+      {
+        "value": "Blocks.BEDROCK"
+      },
+      {
+        "value": "CUSTOM:BrokenGlass"
+      },
+      {
+        "value": "Blocks.BEDROCK"
+      },
+      {
+        "value": "CUSTOM:MagicEgg"
+      },
+      {
+        "value": "Blocks.BEDROCK"
+      },
+      {
+        "value": "CUSTOM:BrokenGlass"
+      },
+      {
+        "value": "Blocks.BEDROCK"
+      },
+      {
+        "value": "CUSTOM:BrokenGlass"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tux.spawn_egg"
+    },
+    "name": "tux_spawn_egg",
+    "namespace": "mod"
+  }
+}

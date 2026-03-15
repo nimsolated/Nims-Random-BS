@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.VINE"
+      },
+      {
+        "value": "Blocks.VINE"
+      },
+      {
+        "value": "Blocks.VINE"
+      },
+      {
+        "value": "Blocks.SAPLING#3"
+      },
+      {
+        "value": "Items.CAT_SPAWN_EGG"
+      },
+      {
+        "value": "Blocks.SAPLING#3"
+      },
+      {
+        "value": "Blocks.DIRT"
+      },
+      {
+        "value": "Blocks.DIRT"
+      },
+      {
+        "value": "Blocks.DIRT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SPAWN_EGG#98"
+    },
+    "name": "ocelot_spawn_egg",
+    "namespace": "mod"
+  }
+}

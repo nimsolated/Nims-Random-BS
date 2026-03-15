@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "nims_random_bullshit:bedrockifier",
     "nims_random_bullshit:magma_brick_button",
     "nims_random_bullshit:magma_brick_pressure_plate",
     "nims_random_bullshit:magma_brick_walls",

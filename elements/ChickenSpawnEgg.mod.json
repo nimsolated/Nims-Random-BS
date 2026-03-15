@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 9,
+    "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.FEATHER"
       },
       {
-        "value": ""
+        "value": "Items.EGG"
       },
       {
-        "value": ""
+        "value": "Items.FEATHER"
       },
       {
-        "value": ""
+        "value": "Items.EGG"
       },
       {
-        "value": "Blocks.BEDROCK"
+        "value": "CUSTOM:MagicEgg"
       },
       {
-        "value": ""
+        "value": "Items.EGG"
       },
       {
-        "value": ""
+        "value": "Items.FEATHER"
       },
       {
-        "value": ""
+        "value": "Items.EGG"
       },
       {
-        "value": ""
+        "value": "Items.FEATHER"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.OBSIDIAN"
+      "value": "Items.SPAWN_EGG#93"
     },
-    "name": "obsidian_recipe",
+    "name": "chicken_spawn_egg",
     "namespace": "mod"
   }
 }

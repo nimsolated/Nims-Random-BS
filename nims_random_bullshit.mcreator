@@ -2349,32 +2349,6 @@
       "path": "~/Magma"
     },
     {
-      "name": "BedrockLootTable",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bedrock_loot_table",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/blocks/bedrock.json"
-        ]
-      },
-      "path": "~/Other"
-    },
-    {
-      "name": "ObsidianRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidian_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/nims_random_bullshit/recipes/obsidian_recipe.json"
-        ]
-      },
-      "path": "~/Other"
-    },
-    {
       "name": "CheeseRecipe",
       "type": "recipe",
       "compiles": true,
@@ -2386,6 +2360,852 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "BedrockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/bedrock_recipe.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/bedrock_recipe_2.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_pickaxe.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockPickaxeItem.java"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockPickaxeEntitySwingsItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_pickaxe_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/BedrockPickaxeEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockUpgradeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_upgrade_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockUpgradeTemplateItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_upgrade_template.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/bedrock_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockUpgradeTemplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_upgrade_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/bedrock_upgrade_template_recipe.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "TotemOfUndyingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_undying_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/totem_of_undying_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "MailmanProfession",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailman_profession",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "MailmanTrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailman_trades",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "Bedrockifier",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrockifier",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/bedrockifier.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/bedrockifier.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/BedrockifierBlock.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/entity/BedrockifierBlockEntity.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/bedrockifier.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/bedrockifier.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockifierGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrockifier_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/network/BedrockifierGUIButtonMessage.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/BedrockifierGUIMenu.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/BedrockifierGUIScreen.java"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockifierButtonPressLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrockifier_button_press_logic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/BedrockifierButtonPressLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockifierRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrockifier_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/bedrockifier_recipe.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "MagicEgg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/magic_egg.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/MagicEggItem.java"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "MagicEggRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_egg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magic_egg_recipe.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "WitherQuestionMark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_question_mark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/WitherQuestionMarkItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/wither_question_mark.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "WitherQuestionMarkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_question_mark_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/wither_question_mark_recipe.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "WitherSpawnEggRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_spawn_egg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/wither_spawn_egg_recipe.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "ZombieSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/zombie_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "SkeletonSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/skeleton_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "SpiderSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/spider_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "CreeperSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/creeper_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "EndermanSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/enderman_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "CowSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cow_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/cow_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "SheepSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheep_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/sheep_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "PigSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/pig_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "HoglinSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoglin_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/hoglin_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "ChickenSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/chicken_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "TuxSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tux_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/tux_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "SlimeSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/slime_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "GhastSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghast_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/ghast_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "ZombifiedPiglinSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombified_piglin_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/zombified_piglin_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "ZombieVillagerSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_villager_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/zombie_villager_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "BlazeSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/blaze_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "MagmaCubeSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_cube_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magma_cube_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "WitherSkeletonSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_skeleton_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/wither_skeleton_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "GuardianSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/guardian_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "ElderGuardianSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elder_guardian_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/elder_guardian_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "SquidSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/squid_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "GlowSquidSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_squid_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/glow_squid_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "WolfSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/wolf_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "CatSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/cat_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "OcelotSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocelot_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/ocelot_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "RabbitSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/rabbit_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "MooshroomSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mooshroom_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/mooshroom_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "DrownedSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drowned_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/drowned_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "PhantomSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantom_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/phantom_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "ShulkerSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shulker_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/shulker_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "EvokerSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evoker_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/evoker_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "IronGolemQuestionMark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_golem_question_mark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/IronGolemQuestionMarkItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/iron_golem_question_mark.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "IronGolemQuestionMarkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_golem_question_mark_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/iron_golem_question_mark_recipe.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "IronGolemSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_golem_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/iron_golem_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "HorseSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horse_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/horse_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "LlamaSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "llama_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/llama_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "SnowGolemQuestionMark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_golem_question_mark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/snow_golem_question_mark.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/SnowGolemQuestionMarkItem.java"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "SnowGolemQuestionMarkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_golem_question_mark_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/snow_golem_question_mark_recipe.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "SnowGolemSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_golem_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/snow_golem_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "WardenSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/warden_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "BedrockSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_sword.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockSwordItem.java"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/bedrock_sword_recipe.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "ShitPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_painting",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Shit"
     }
   ],
   "variable_elements": [],
@@ -2394,7 +3214,11 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:NetherrackJuice"
     ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Bedrockifier"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Bedrockifier",
       "~CUSTOM:MagmaBrickButton",
       "~CUSTOM:MagmaBrickPressurePlate",
       "~CUSTOM:MagmaBrickWalls",
@@ -2421,6 +3245,7 @@
       "~CUSTOM:RubberFence"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:BedrockPickaxe",
       "~CUSTOM:StarWand",
       "~CUSTOM:NetherrackitePickaxe"
     ],
@@ -2432,6 +3257,9 @@
       "~CUSTOM:MagmaBrickStairs",
       "~CUSTOM:RedstoneBrickStairs",
       "~CUSTOM:RubberStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BedrockSword"
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:Gravedigger"
@@ -2448,14 +3276,16 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "gui.nims_random_bullshit.mailbox_name_entry_gui.button_done": "Done",
       "item.nims_random_bullshit.star_wand": "Star Wand",
+      "gui.nims_random_bullshit.mailbox_name_entry_gui.button_done": "Done",
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
       "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
       "item.nims_random_bullshit.magic_dust": "Magic Dust",
       "block.nims_random_bullshit.magma_brick_button": "Magma Brick Button",
+      "painting.nims_random_bullshit.shit_painting.title": "Shit Painting",
       "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
       "gui.nims_random_bullshit.label_copy_machine_gui.button_copy": "Copy",
+      "painting.nims_random_bullshit.shit_painting.author": "nim",
       "gui.nims_random_bullshit.mailbox_gui.outbox_x_coord": "0",
       "block.nims_random_bullshit.broken_glass": "Broken Glass",
       "block.nims_random_bullshit.redstone_brick_walls": "Redstone Brick Wall",
@@ -2465,12 +3295,14 @@
       "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
       "block.nims_random_bullshit.rubber_slab": "Rubber Slab",
       "gui.nims_random_bullshit.mailbox_name_entry_gui.mailbox_name_field": "",
+      "item.nims_random_bullshit.bedrock_upgrade_template": "Bedrock Upgrade Template",
       "item.nims_random_bullshit.shipping_label": "Shipping Label",
       "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "block.nims_random_bullshit.magma_brick_walls": "Magma Brick Wall",
       "gui.nims_random_bullshit.mailbox_gui.label_y": "Y:",
       "block.nims_random_bullshit.redstone_bricks": "Redstone Bricks",
       "gui.nims_random_bullshit.mailbox_gui.label_z": "Z:",
+      "item.nims_random_bullshit.iron_golem_question_mark": "Iron Golem...?",
       "item.nims_random_bullshit.tux_spawn_egg": "Tux Spawn Egg",
       "gui.nims_random_bullshit.mailbox_gui.label_x": "X:",
       "gui.nims_random_bullshit.label_copy_machine_gui.label_label_copy_machine": "Label Copy Machine",
@@ -2480,11 +3312,14 @@
       "block.nims_random_bullshit.rubber_fence_gate": "Rubber Fence Gate",
       "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_ink_sac_slot": "Ink Sac Slot",
       "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_paper_slot": "Paper Slot",
+      "item.nims_random_bullshit.snow_golem_question_mark": "Snow Golem...?",
+      "item.nims_random_bullshit.bedrock_sword": "Bedrock Sword",
       "block.nims_random_bullshit.mailbox": "Mailbox",
       "gui.nims_random_bullshit.mailbox_gui.button_send": "Send",
       "block.nims_random_bullshit.redstone_brick_stairs": "Redstone Brick Stairs",
       "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
       "gui.nims_random_bullshit.mailbox_gui.label_inbox": "Inbox",
+      "item.nims_random_bullshit.wither_question_mark": "Wither...?",
       "block.nims_random_bullshit.magma_brick_pressure_plate": "Magma Brick Pressure Plate",
       "item.nims_random_bullshit.cheese": "Cheese",
       "item.nims_random_bullshit.netherrackite": "Netherrackite Ingot",
@@ -2495,6 +3330,7 @@
       "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
       "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_output_copy_of_shipping_label": "Output (copy of shipping label)",
       "item.nims_random_bullshit.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
+      "gui.nims_random_bullshit.bedrockifier_gui.button_empty": "-\u003e",
       "item.nims_random_bullshit.netherrackite_pickaxe": "Netherrackite Pickaxe",
       "effect.nims_random_bullshit.stinky_effect": "Stinky",
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
@@ -2506,6 +3342,8 @@
       "item.nims_random_bullshit.sand_dust": "Sand Dust",
       "entity.nims_random_bullshit.tux": "Tux",
       "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
+      "block.nims_random_bullshit.bedrockifier": "Bedrockifier",
+      "item.nims_random_bullshit.magic_egg": "Magic Egg",
       "item.nims_random_bullshit.block_eater": "Block Eater",
       "item.nims_random_bullshit.golden_berries": "Golden Berries",
       "item.nims_random_bullshit.netherrack_juice_bucket": "Netherrack Juice Bucket",
@@ -2514,9 +3352,12 @@
       "item.nims_random_bullshit.star": "Star",
       "gui.nims_random_bullshit.shit_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
       "block.nims_random_bullshit.magma_bricks": "Magma Bricks",
+      "entity.minecraft.villager.nims_random_bullshit.mailman_profession": "Mailman Profession",
+      "gui.nims_random_bullshit.bedrockifier_gui.label_bedrockifier": "Bedrockifier",
       "block.nims_random_bullshit.rubber_pressure_plate": "Rubber Pressure Plate",
       "item.nims_random_bullshit.shit": "Shit",
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
+      "item.nims_random_bullshit.bedrock_pickaxe": "Bedrock Pickaxe",
       "block.nims_random_bullshit.magma_brick_stairs": "Magma Brick Stairs",
       "block.nims_random_bullshit.magma_brick_slabs": "Magma Brick Slab",
       "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_shipping_label_slot": "Shipping Label Slot",
@@ -2570,13 +3411,21 @@
       {
         "name": "Magma",
         "children": []
+      },
+      {
+        "name": "Bedrock",
+        "children": []
+      },
+      {
+        "name": "SpawnEggs",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "nims_random_bullshit",
     "modName": "Nim\u0027s Random Bullshit",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "Random shit added by Nim. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",
