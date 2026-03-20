@@ -1865,19 +1865,6 @@
       "path": "~/Magma"
     },
     {
-      "name": "CheeseRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cheese_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/nims_random_bullshit/recipes/cheese_recipe.json"
-        ]
-      },
-      "path": "~/Other"
-    },
-    {
       "name": "BedrockRecipe",
       "type": "recipe",
       "compiles": true,
@@ -2753,6 +2740,569 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "NetherrackRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/netherrack_recipe_2.json"
+        ]
+      },
+      "path": "~/Netherracks"
+    },
+    {
+      "name": "Orichalcum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/block/OrichalcumOreBlock.java",
+          "src/main/resources/data/nims_random_bullshit/worldgen/configured_feature/orichalcum_ore.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/orichalcum_ore.json",
+          "src/main/resources/data/nims_random_bullshit/worldgen/placed_feature/orichalcum_ore.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_ore.json",
+          "src/main/resources/data/nims_random_bullshit/forge/biome_modifier/orichalcum_ore_biome_modifier.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/orichalcum_ore.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/orichalcum_ore.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/block/orichalcum_block.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_block.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/orichalcum_block.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/OrichalcumBlockBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/orichalcum_block.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_ore_smelting.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumPickaxeItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_pickaxe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumAxeItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_axe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_sword.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumSwordItem.java"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumShovelItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_shovel.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumHoeItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_hoe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_axe_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_sword_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_armor_helmet.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_armor_leggings.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumArmorItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_armor_boots.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/orichalcum_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/worldgen/placed_feature/orichalcum_feature.json",
+          "src/main/resources/data/nims_random_bullshit/forge/biome_modifier/orichalcum_feature_biome_modifier.json",
+          "src/main/resources/data/nims_random_bullshit/worldgen/configured_feature/orichalcum_feature.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumArmorBootsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/OrichalcumArmorBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumSetAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_set_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/orichalcum_set_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "OrichalcumAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/orichalcum_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BedrockShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_shard.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockShardItem.java"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/bedrock_recipe_3.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockShardRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_shard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/bedrock_shard_recipe.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/bedrock_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BedrockShardAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_shard_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/bedrock_shard_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "CondensedNetherrackAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_netherrack_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/condensed_netherrack_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BlockEaterAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_eater_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/block_eater_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MagicEggAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_egg_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/magic_egg_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SpawnerAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawner_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/spawner_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TuxAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tux_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/tux_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "StarAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/star_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "StarWandAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_wand_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/star_wand_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "NetherrackJuiceAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_juice_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/netherrack_juice_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ShitAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/shit_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GraveDiggerAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grave_digger_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/advancements/grave_digger_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -2762,18 +3312,26 @@
       "~CUSTOM:NetherrackJuice"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:OrichalcumBlock",
+      "~CUSTOM:OrichalcumOre",
       "~CUSTOM:Bedrockifier"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:OrichalcumPickaxe",
       "~CUSTOM:BedrockPickaxe",
       "~CUSTOM:StarWand",
       "~CUSTOM:NetherrackitePickaxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:OrichalcumHoe"
     ],
     "ITEMS:mod:ore_miner_acceptable_inputs": [
       "CUSTOM:BedrockPickaxe",
       "Items.DIAMOND_PICKAXE"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:OrichalcumBlock",
+      "~CUSTOM:OrichalcumOre",
       "~CUSTOM:Bedrockifier",
       "~CUSTOM:MagmaBrickButton",
       "~CUSTOM:MagmaBrickPressurePlate",
@@ -2794,26 +3352,32 @@
     ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:MagmaBrickSlabs",
-      "~CUSTOM:RedstoneBrickSlabs",
-      "~CUSTOM:RubberSlab"
-    ],
-    "BLOCKS:minecraft:fences": [
-      "~CUSTOM:RubberFence"
+      "~CUSTOM:RedstoneBrickSlabs"
     ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:MagmaBrickWalls",
       "~CUSTOM:RedstoneBrickWalls"
     ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:OrichalcumAxe"
+    ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:MagmaBrickStairs",
-      "~CUSTOM:RedstoneBrickStairs",
-      "~CUSTOM:RubberStairs"
+      "~CUSTOM:RedstoneBrickStairs"
+    ],
+    "ITEMS:origins-plus-plus:raw_meat": [
+      "CUSTOM:MagicFlesh"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:OrichalcumSword",
       "~CUSTOM:BedrockSword"
     ],
     "ITEMS:minecraft:shovels": [
+      "~CUSTOM:OrichalcumShovel",
       "~CUSTOM:Gravedigger"
+    ],
+    "ITEMS:origins:meat": [
+      "CUSTOM:MagicFlesh"
     ],
     "BLOCKS:mod:netherrack": [
       "Blocks.NETHERRACK",
@@ -2827,76 +3391,117 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "advancements.condensed_netherrack_advancement.descr": "Condense Netherrack for the first time",
+      "item.nims_random_bullshit.magic_dust": "Magic Dust",
+      "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
+      "item.nims_random_bullshit.orichalcum_armor_boots": "Orichalcum Boots",
+      "block.nims_random_bullshit.magma_brick_button": "Magma Brick Button",
+      "advancements.orichalcum_advancement.descr": "Obtain Orichalcum",
+      "painting.nims_random_bullshit.shit_painting.title": "Shit Painting",
+      "advancements.spawner_advancement.title": "It\u0027s spawnin\u0027 time!",
+      "item.nims_random_bullshit.bedrock_shard": "Bedrock Shard",
+      "item.nims_random_bullshit.orichalcum_armor_chestplate": "Orichalcum Chestplate",
+      "advancements.grave_digger_advancement.title": "We Must Dig!",
+      "item.nims_random_bullshit.bean": "Bean",
+      "block.nims_random_bullshit.orichalcum_block": "Block of Orichalcum",
+      "block.nims_random_bullshit.rubber_slab": "Rubber Slab",
+      "item.nims_random_bullshit.bedrock_upgrade_template": "Bedrock Upgrade Template",
+      "advancements.orichalcum_set_advancement.descr": "Wear a full armor set of Orichalcum.",
+      "block.nims_random_bullshit.redstone_bricks": "Redstone Bricks",
+      "block.nims_random_bullshit.orichalcum_ore": "Orichalcum Ore",
+      "item.nims_random_bullshit.iron_golem_question_mark": "Iron Golem...?",
+      "item.nims_random_bullshit.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
+      "item.nims_random_bullshit.gravedigger.description_1": "We must dig!",
+      "item.nims_random_bullshit.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
+      "block.nims_random_bullshit.rubber_fence_gate": "Rubber Fence Gate",
+      "item.nims_random_bullshit.bedrock_sword": "Bedrock Sword",
+      "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
+      "item.nims_random_bullshit.wither_question_mark": "Wither...?",
+      "advancements.block_eater_advancement.descr": "Eat a block with the Block Eater",
+      "advancements.tux_advancement.title": "Tux!?",
+      "item.nims_random_bullshit.gravedigger": "Gravedigger",
+      "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
+      "advancements.netherrack_juice_advancement.descr": "Obtain Netherrack Juice",
+      "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
+      "advancements.shit_advancement.descr": "Shit",
+      "gui.nims_random_bullshit.bedrockifier_gui.button_empty": "-\u003e",
+      "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
+      "item.nims_random_bullshit.sand_dust": "Sand Dust",
+      "entity.nims_random_bullshit.tux": "Tux",
+      "block.nims_random_bullshit.bedrockifier": "Bedrockifier",
+      "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
+      "item.nims_random_bullshit.golden_berries": "Golden Berries",
+      "item.nims_random_bullshit.netherrack_juice_bucket": "Netherrack Juice Bucket",
+      "item.nims_random_bullshit.orichalcum": "Orichalcum",
+      "advancements.magic_egg_advancement.descr": "Obtain a Magic Egg",
+      "block.nims_random_bullshit.rubber_pressure_plate": "Rubber Pressure Plate",
+      "item.nims_random_bullshit.orichalcum_armor_leggings": "Orichalcum Leggings",
+      "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
+      "block.nims_random_bullshit.magma_brick_slabs": "Magma Brick Slab",
+      "advancements.orichalcum_set_advancement.title": "Cover Me In Orc Cum",
       "item.nims_random_bullshit.star_wand": "Star Wand",
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
-      "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
-      "item.nims_random_bullshit.magic_dust": "Magic Dust",
-      "block.nims_random_bullshit.magma_brick_button": "Magma Brick Button",
-      "painting.nims_random_bullshit.shit_painting.title": "Shit Painting",
+      "item.nims_random_bullshit.orichalcum_axe": "Orichalcum Axe",
       "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
+      "advancements.star_advancement.title": "A Star Meant To Be",
       "painting.nims_random_bullshit.shit_painting.author": "nim",
       "gui.nims_random_bullshit.mailbox_gui.outbox_x_coord": "0",
       "block.nims_random_bullshit.broken_glass": "Broken Glass",
       "block.nims_random_bullshit.redstone_brick_walls": "Redstone Brick Wall",
       "block.nims_random_bullshit.rubber_fence": "Rubber Fence",
-      "item.nims_random_bullshit.bean": "Bean",
       "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
-      "block.nims_random_bullshit.rubber_slab": "Rubber Slab",
-      "item.nims_random_bullshit.bedrock_upgrade_template": "Bedrock Upgrade Template",
+      "advancements.grave_digger_advancement.descr": "Obtain Gravedigger",
+      "advancements.condensed_netherrack_advancement.title": "Rackin\u0027 Em Up!",
+      "advancements.orichalcum_advancement.title": "Folly Red Cum",
       "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "block.nims_random_bullshit.magma_brick_walls": "Magma Brick Wall",
       "gui.nims_random_bullshit.mailbox_gui.label_y": "Y:",
-      "block.nims_random_bullshit.redstone_bricks": "Redstone Bricks",
       "gui.nims_random_bullshit.mailbox_gui.label_z": "Z:",
-      "item.nims_random_bullshit.iron_golem_question_mark": "Iron Golem...?",
       "item.nims_random_bullshit.tux_spawn_egg": "Tux Spawn Egg",
       "gui.nims_random_bullshit.mailbox_gui.label_x": "X:",
-      "item.nims_random_bullshit.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
-      "item.nims_random_bullshit.gravedigger.description_1": "We must dig!",
-      "item.nims_random_bullshit.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
-      "block.nims_random_bullshit.rubber_fence_gate": "Rubber Fence Gate",
+      "item.nims_random_bullshit.orichalcum_armor_helmet": "Orichalcum Helmet",
+      "item.nims_random_bullshit.orichalcum_sword": "Orichalcum Sword",
+      "advancements.star_wand_advancement.title": "Healius Absorbus!",
       "item.nims_random_bullshit.snow_golem_question_mark": "Snow Golem...?",
-      "item.nims_random_bullshit.bedrock_sword": "Bedrock Sword",
+      "advancements.bedrock_advancement.descr": "Obtain Bedrock",
+      "advancements.magic_egg_advancement.title": "Core of a Spawner",
+      "item.nims_random_bullshit.orichalcum_shovel": "Orichalcum Shovel",
       "block.nims_random_bullshit.redstone_brick_stairs": "Redstone Brick Stairs",
-      "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
-      "item.nims_random_bullshit.wither_question_mark": "Wither...?",
+      "item.nims_random_bullshit.orichalcum_pickaxe": "Orichalcum Pickaxe",
       "block.nims_random_bullshit.magma_brick_pressure_plate": "Magma Brick Pressure Plate",
       "item.nims_random_bullshit.cheese": "Cheese",
       "item.nims_random_bullshit.netherrackite": "Netherrackite Ingot",
-      "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
-      "item.nims_random_bullshit.gravedigger": "Gravedigger",
+      "advancements.bedrock_shard_advancement.title": "Unobtainium",
       "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
-      "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
       "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
+      "advancements.shit_advancement.title": "Oh Shit!",
       "item.nims_random_bullshit.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
-      "gui.nims_random_bullshit.bedrockifier_gui.button_empty": "-\u003e",
       "item.nims_random_bullshit.netherrackite_pickaxe": "Netherrackite Pickaxe",
       "effect.nims_random_bullshit.stinky_effect": "Stinky",
-      "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
+      "advancements.tux_advancement.descr": "Obtain a Tux Spawn Egg",
+      "item.nims_random_bullshit.orichalcum_hoe": "Orichalcum Hoe",
       "block.nims_random_bullshit.ore_miner": "Ore Miner",
+      "advancements.star_wand_advancement.descr": "Use a Star Wand",
       "block.nims_random_bullshit.rubber_stairs": "Rubber Stairs",
       "block.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "block.nims_random_bullshit.rubber_button": "Rubber Button",
-      "item.nims_random_bullshit.sand_dust": "Sand Dust",
-      "entity.nims_random_bullshit.tux": "Tux",
-      "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
-      "block.nims_random_bullshit.bedrockifier": "Bedrockifier",
       "item.nims_random_bullshit.magic_egg": "Magic Egg",
       "item.nims_random_bullshit.block_eater": "Block Eater",
-      "item.nims_random_bullshit.golden_berries": "Golden Berries",
-      "item.nims_random_bullshit.netherrack_juice_bucket": "Netherrack Juice Bucket",
       "block.nims_random_bullshit.condensed_condensed_condensed_netherrack": "Condensed Condensed Condensed Netherrack",
+      "advancements.bedrock_advancement.title": "Unobtainium Block",
       "entity.nims_random_bullshit.ghoul": "Ghoul",
       "item.nims_random_bullshit.star": "Star",
       "gui.nims_random_bullshit.shit_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
       "block.nims_random_bullshit.magma_bricks": "Magma Bricks",
       "gui.nims_random_bullshit.bedrockifier_gui.label_bedrockifier": "Bedrockifier",
-      "block.nims_random_bullshit.rubber_pressure_plate": "Rubber Pressure Plate",
+      "advancements.star_advancement.descr": "Obtain a Star",
       "item.nims_random_bullshit.shit": "Shit",
-      "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
       "item.nims_random_bullshit.bedrock_pickaxe": "Bedrock Pickaxe",
+      "advancements.block_eater_advancement.title": "Eat The Blocks",
+      "advancements.spawner_advancement.descr": "Obtain a Mob Spawner",
       "block.nims_random_bullshit.magma_brick_stairs": "Magma Brick Stairs",
-      "block.nims_random_bullshit.magma_brick_slabs": "Magma Brick Slab",
+      "advancements.netherrack_juice_advancement.title": "Smells Kinda Funny",
+      "advancements.bedrock_shard_advancement.descr": "Obtain Bedrock Shard",
       "block.nims_random_bullshit.redstone_brick_slabs": "Redstone Brick Slab"
     }
   },
@@ -2950,18 +3555,27 @@
       {
         "name": "SpawnEggs",
         "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Orichalcum",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "nims_random_bullshit",
     "modName": "Nim\u0027s Random Bullshit",
-    "version": "1.6.2",
+    "version": "1.7.0",
     "description": "Random shit added by Nim. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "serverSideOnly": false,
+    "modPicture": "shit",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

@@ -19,6 +19,13 @@ import net.mcreator.nimsrandombullshit.item.StarItem;
 import net.mcreator.nimsrandombullshit.item.SnowGolemQuestionMarkItem;
 import net.mcreator.nimsrandombullshit.item.ShitItem;
 import net.mcreator.nimsrandombullshit.item.SandDustItem;
+import net.mcreator.nimsrandombullshit.item.OrichalcumSwordItem;
+import net.mcreator.nimsrandombullshit.item.OrichalcumShovelItem;
+import net.mcreator.nimsrandombullshit.item.OrichalcumPickaxeItem;
+import net.mcreator.nimsrandombullshit.item.OrichalcumItem;
+import net.mcreator.nimsrandombullshit.item.OrichalcumHoeItem;
+import net.mcreator.nimsrandombullshit.item.OrichalcumAxeItem;
+import net.mcreator.nimsrandombullshit.item.OrichalcumArmorItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackitePickaxeItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackiteItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackJuiceItem;
@@ -33,6 +40,7 @@ import net.mcreator.nimsrandombullshit.item.CheeseItem;
 import net.mcreator.nimsrandombullshit.item.BlockEaterItem;
 import net.mcreator.nimsrandombullshit.item.BedrockUpgradeTemplateItem;
 import net.mcreator.nimsrandombullshit.item.BedrockSwordItem;
+import net.mcreator.nimsrandombullshit.item.BedrockShardItem;
 import net.mcreator.nimsrandombullshit.item.BedrockPickaxeItem;
 import net.mcreator.nimsrandombullshit.item.BeanItem;
 import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
@@ -82,6 +90,19 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> IRON_GOLEM_QUESTION_MARK = REGISTRY.register("iron_golem_question_mark", () -> new IronGolemQuestionMarkItem());
 	public static final RegistryObject<Item> SNOW_GOLEM_QUESTION_MARK = REGISTRY.register("snow_golem_question_mark", () -> new SnowGolemQuestionMarkItem());
 	public static final RegistryObject<Item> BEDROCK_SWORD = REGISTRY.register("bedrock_sword", () -> new BedrockSwordItem());
+	public static final RegistryObject<Item> ORICHALCUM = REGISTRY.register("orichalcum", () -> new OrichalcumItem());
+	public static final RegistryObject<Item> ORICHALCUM_ORE = block(NimsRandomBullshitModBlocks.ORICHALCUM_ORE);
+	public static final RegistryObject<Item> ORICHALCUM_BLOCK = block(NimsRandomBullshitModBlocks.ORICHALCUM_BLOCK);
+	public static final RegistryObject<Item> ORICHALCUM_PICKAXE = REGISTRY.register("orichalcum_pickaxe", () -> new OrichalcumPickaxeItem());
+	public static final RegistryObject<Item> ORICHALCUM_AXE = REGISTRY.register("orichalcum_axe", () -> new OrichalcumAxeItem());
+	public static final RegistryObject<Item> ORICHALCUM_SWORD = REGISTRY.register("orichalcum_sword", () -> new OrichalcumSwordItem());
+	public static final RegistryObject<Item> ORICHALCUM_SHOVEL = REGISTRY.register("orichalcum_shovel", () -> new OrichalcumShovelItem());
+	public static final RegistryObject<Item> ORICHALCUM_HOE = REGISTRY.register("orichalcum_hoe", () -> new OrichalcumHoeItem());
+	public static final RegistryObject<Item> ORICHALCUM_ARMOR_HELMET = REGISTRY.register("orichalcum_armor_helmet", () -> new OrichalcumArmorItem.Helmet());
+	public static final RegistryObject<Item> ORICHALCUM_ARMOR_CHESTPLATE = REGISTRY.register("orichalcum_armor_chestplate", () -> new OrichalcumArmorItem.Chestplate());
+	public static final RegistryObject<Item> ORICHALCUM_ARMOR_LEGGINGS = REGISTRY.register("orichalcum_armor_leggings", () -> new OrichalcumArmorItem.Leggings());
+	public static final RegistryObject<Item> ORICHALCUM_ARMOR_BOOTS = REGISTRY.register("orichalcum_armor_boots", () -> new OrichalcumArmorItem.Boots());
+	public static final RegistryObject<Item> BEDROCK_SHARD = REGISTRY.register("bedrock_shard", () -> new BedrockShardItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

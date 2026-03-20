@@ -33,6 +33,8 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICK_STAIRS.get().asItem());
 			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICK_SLABS.get().asItem());
 			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICK_WALLS.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.ORICHALCUM_ORE.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.ORICHALCUM_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(NimsRandomBullshitModItems.BLOCK_EATER.get());
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACKITE_PICKAXE.get());
@@ -42,6 +44,10 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACK_JUICE_BUCKET.get());
 			tabData.accept(NimsRandomBullshitModItems.BEDROCK_PICKAXE.get());
 			tabData.accept(NimsRandomBullshitModItems.BEDROCK_SWORD.get());
+			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_PICKAXE.get());
+			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_AXE.get());
+			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_SHOVEL.get());
+			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_HOE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACKITE.get());
 			tabData.accept(NimsRandomBullshitModItems.SAND_DUST.get());
@@ -53,6 +59,8 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModItems.WITHER_QUESTION_MARK.get());
 			tabData.accept(NimsRandomBullshitModItems.IRON_GOLEM_QUESTION_MARK.get());
 			tabData.accept(NimsRandomBullshitModItems.SNOW_GOLEM_QUESTION_MARK.get());
+			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM.get());
+			tabData.accept(NimsRandomBullshitModItems.BEDROCK_SHARD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(NimsRandomBullshitModItems.MAGIC_FLESH.get());
 			tabData.accept(NimsRandomBullshitModItems.GOLDEN_BERRIES.get());
@@ -71,6 +79,12 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModBlocks.REDSTONE_BRICK_WALLS.get().asItem());
 			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICK_PRESSURE_PLATE.get().asItem());
 			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICK_BUTTON.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_SWORD.get());
+			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_ARMOR_HELMET.get());
+			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_ARMOR_CHESTPLATE.get());
+			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_ARMOR_LEGGINGS.get());
+			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_ARMOR_BOOTS.get());
 		}
 	}
 }

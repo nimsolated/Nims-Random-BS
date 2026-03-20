@@ -16,6 +16,8 @@ import net.mcreator.nimsrandombullshit.block.RedstoneBrickStairsBlock;
 import net.mcreator.nimsrandombullshit.block.RedstoneBrickSlabsBlock;
 import net.mcreator.nimsrandombullshit.block.QuadraCondensedNetherrackBlock;
 import net.mcreator.nimsrandombullshit.block.PentaCondensedNetherrackBlock;
+import net.mcreator.nimsrandombullshit.block.OrichalcumOreBlock;
+import net.mcreator.nimsrandombullshit.block.OrichalcumBlockBlock;
 import net.mcreator.nimsrandombullshit.block.OreMinerBlock;
 import net.mcreator.nimsrandombullshit.block.NetherrackJuiceBlock;
 import net.mcreator.nimsrandombullshit.block.MagmaBricksBlock;
@@ -54,6 +56,8 @@ public class NimsRandomBullshitModBlocks {
 	public static final RegistryObject<Block> MAGMA_BRICK_PRESSURE_PLATE = REGISTRY.register("magma_brick_pressure_plate", () -> new MagmaBrickPressurePlateBlock());
 	public static final RegistryObject<Block> MAGMA_BRICK_BUTTON = REGISTRY.register("magma_brick_button", () -> new MagmaBrickButtonBlock());
 	public static final RegistryObject<Block> BEDROCKIFIER = REGISTRY.register("bedrockifier", () -> new BedrockifierBlock());
+	public static final RegistryObject<Block> ORICHALCUM_ORE = REGISTRY.register("orichalcum_ore", () -> new OrichalcumOreBlock());
+	public static final RegistryObject<Block> ORICHALCUM_BLOCK = REGISTRY.register("orichalcum_block", () -> new OrichalcumBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

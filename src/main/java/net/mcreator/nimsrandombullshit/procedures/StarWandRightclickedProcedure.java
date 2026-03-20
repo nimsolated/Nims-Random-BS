@@ -16,8 +16,12 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
 import java.util.Comparator;
 
@@ -43,9 +47,9 @@ public class StarWandRightclickedProcedure {
 		if (!(rightClickedEntity == null)) {
 			if ((rightClickedEntity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) == (rightClickedEntity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1)) {
 				if (rightClickedEntity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 300, 1, false, false));
+					_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 600, 2, false, false));
 				if (entity instanceof Player _player)
-					_player.getCooldowns().addCooldown(itemstack.getItem(), 40);
+					_player.getCooldowns().addCooldown(itemstack.getItem(), 24);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.resonate")), SoundSource.NEUTRAL, 3,
@@ -57,9 +61,9 @@ public class StarWandRightclickedProcedure {
 				}
 			} else {
 				if (rightClickedEntity instanceof LivingEntity _entity)
-					_entity.setHealth((float) ((rightClickedEntity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 3));
+					_entity.setHealth((float) ((rightClickedEntity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 4));
 				if (entity instanceof Player _player)
-					_player.getCooldowns().addCooldown(itemstack.getItem(), 40);
+					_player.getCooldowns().addCooldown(itemstack.getItem(), 24);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.resonate")), SoundSource.NEUTRAL, 3,
@@ -67,6 +71,17 @@ public class StarWandRightclickedProcedure {
 					} else {
 						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.resonate")), SoundSource.NEUTRAL, 3, (float) (2 * ((Mth.nextInt(RandomSource.create(), 2, 24) - 12) / 12)),
 								false);
+					}
+				}
+			}
+			if (!(entity instanceof ServerPlayer _plr18 && _plr18.level() instanceof ServerLevel
+					&& _plr18.getAdvancements().getOrStartProgress(_plr18.server.getAdvancements().getAdvancement(new ResourceLocation("nims_random_bullshit:star_wand_advancement"))).isDone())) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("nims_random_bullshit:star_wand_advancement"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						for (String criteria : _ap.getRemainingCriteria())
+							_player.getAdvancements().award(_adv, criteria);
 					}
 				}
 			}
